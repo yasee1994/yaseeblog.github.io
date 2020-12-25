@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yasee1994.github.io</id>
     <title>Gridea</title>
-    <updated>2020-12-25T10:24:35.136Z</updated>
+    <updated>2020-12-25T10:25:15.527Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yasee1994.github.io"/>
     <link rel="self" href="https://yasee1994.github.io/atom.xml"/>
@@ -10,32 +10,6 @@
     <logo>https://yasee1994.github.io/images/avatar.png</logo>
     <icon>https://yasee1994.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[【已解决】Wild Rift 英雄联盟手游匹配超时]]></title>
-        <id>https://yasee1994.github.io/post/yi-jie-jue-wild-rift-ying-xiong-lian-meng-shou-you-pi-pei-chao-shi/</id>
-        <link href="https://yasee1994.github.io/post/yi-jie-jue-wild-rift-ying-xiong-lian-meng-shou-you-pi-pei-chao-shi/">
-        </link>
-        <updated>2020-12-25T06:23:49.000Z</updated>
-        <content type="html"><![CDATA[<p>#问题：</p>
-<p>最近迷上了英雄联盟手游，由于博主在阿联酋的原因，中东服务器是在12月11号才开放的，之前一直是在台服和日服开VPN玩，但是发现之前的账户如果直接使用中东服务器进行游戏的话是无法匹配，会提示</p>
-<pre><code>matchmaking time out. please try again
-</code></pre>
-<figure data-type="image" tabindex="1"><img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225141655.jpeg" alt="" loading="lazy"></figure>
-<p>#解决过程：<br>
-在尝试了各种解决方案后发现除了重新玩一个小号剩下能摆脱这个问题的方法就是：去拳头官网<a href="https://support-wildrift.riotgames.com/hc/en-us/requests/new">开一个ticket</a>。</p>
-<p>这是我开了case的原文，博主英语不是很好见笑了。</p>
-<pre><code>hi dear riot team i got problem with my account, i am living at UAE i was play wild rift with my firend before, and now when i back to UAE
-
- i cant match game by Ranked/Normal it will always showing 'matchmaking time out problem' please hlep me with that, otherwise i can only play it with VPN... 
-
-but GCC Server is opened right?,i can play in UAE by a new account only
-</code></pre>
-<figure data-type="image" tabindex="2"><img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225142044.png" alt="" loading="lazy"></figure>
-<p>#问题解决<br>
-<img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225142231.png" alt="" loading="lazy"></p>
-<p>如图所示，最后几番沟通下riot工作人员就帮我把账户转移到了GCC服务器下，然后可以正常的开始游戏了.</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[聊一下亚马逊中东站赶跟卖的那些事]]></title>
         <id>https://yasee1994.github.io/post/liao-yi-xia-ya-ma-xun-zhong-dong-zhan-gan-gen-mai-de-na-xie-shi/</id>
@@ -593,6 +567,32 @@ try:
 except Found:
    print i, j
 </code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【已解决】Wild Rift 英雄联盟手游匹配超时]]></title>
+        <id>https://yasee1994.github.io/post/yi-jie-jue-wild-rift-ying-xiong-lian-meng-shou-you-pi-pei-chao-shi/</id>
+        <link href="https://yasee1994.github.io/post/yi-jie-jue-wild-rift-ying-xiong-lian-meng-shou-you-pi-pei-chao-shi/">
+        </link>
+        <updated>2020-12-25T02:23:49.000Z</updated>
+        <content type="html"><![CDATA[<p>#问题：</p>
+<p>最近迷上了英雄联盟手游，由于博主在阿联酋的原因，中东服务器是在12月11号才开放的，之前一直是在台服和日服开VPN玩，但是发现之前的账户如果直接使用中东服务器进行游戏的话是无法匹配，会提示</p>
+<pre><code>matchmaking time out. please try again
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225141655.jpeg" alt="" loading="lazy"></figure>
+<p>#解决过程：<br>
+在尝试了各种解决方案后发现除了重新玩一个小号剩下能摆脱这个问题的方法就是：去拳头官网<a href="https://support-wildrift.riotgames.com/hc/en-us/requests/new">开一个ticket</a>。</p>
+<p>这是我开了case的原文，博主英语不是很好见笑了。</p>
+<pre><code>hi dear riot team i got problem with my account, i am living at UAE i was play wild rift with my firend before, and now when i back to UAE
+
+ i cant match game by Ranked/Normal it will always showing 'matchmaking time out problem' please hlep me with that, otherwise i can only play it with VPN... 
+
+but GCC Server is opened right?,i can play in UAE by a new account only
+</code></pre>
+<figure data-type="image" tabindex="2"><img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225142044.png" alt="" loading="lazy"></figure>
+<p>#问题解决<br>
+<img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225142231.png" alt="" loading="lazy"></p>
+<p>如图所示，最后几番沟通下riot工作人员就帮我把账户转移到了GCC服务器下，然后可以正常的开始游戏了.</p>
 ]]></content>
     </entry>
     <entry>
