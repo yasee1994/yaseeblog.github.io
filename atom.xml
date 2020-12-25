@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yasee1994.github.io</id>
     <title>Gridea</title>
-    <updated>2020-12-25T10:25:15.527Z</updated>
+    <updated>2020-12-25T10:25:59.082Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yasee1994.github.io"/>
     <link rel="self" href="https://yasee1994.github.io/atom.xml"/>
@@ -570,32 +570,6 @@ except Found:
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【已解决】Wild Rift 英雄联盟手游匹配超时]]></title>
-        <id>https://yasee1994.github.io/post/yi-jie-jue-wild-rift-ying-xiong-lian-meng-shou-you-pi-pei-chao-shi/</id>
-        <link href="https://yasee1994.github.io/post/yi-jie-jue-wild-rift-ying-xiong-lian-meng-shou-you-pi-pei-chao-shi/">
-        </link>
-        <updated>2020-12-25T02:23:49.000Z</updated>
-        <content type="html"><![CDATA[<p>#问题：</p>
-<p>最近迷上了英雄联盟手游，由于博主在阿联酋的原因，中东服务器是在12月11号才开放的，之前一直是在台服和日服开VPN玩，但是发现之前的账户如果直接使用中东服务器进行游戏的话是无法匹配，会提示</p>
-<pre><code>matchmaking time out. please try again
-</code></pre>
-<figure data-type="image" tabindex="1"><img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225141655.jpeg" alt="" loading="lazy"></figure>
-<p>#解决过程：<br>
-在尝试了各种解决方案后发现除了重新玩一个小号剩下能摆脱这个问题的方法就是：去拳头官网<a href="https://support-wildrift.riotgames.com/hc/en-us/requests/new">开一个ticket</a>。</p>
-<p>这是我开了case的原文，博主英语不是很好见笑了。</p>
-<pre><code>hi dear riot team i got problem with my account, i am living at UAE i was play wild rift with my firend before, and now when i back to UAE
-
- i cant match game by Ranked/Normal it will always showing 'matchmaking time out problem' please hlep me with that, otherwise i can only play it with VPN... 
-
-but GCC Server is opened right?,i can play in UAE by a new account only
-</code></pre>
-<figure data-type="image" tabindex="2"><img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225142044.png" alt="" loading="lazy"></figure>
-<p>#问题解决<br>
-<img src="https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225142231.png" alt="" loading="lazy"></p>
-<p>如图所示，最后几番沟通下riot工作人员就帮我把账户转移到了GCC服务器下，然后可以正常的开始游戏了.</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[查询移除亚马逊FBA库存的订单号的方法]]></title>
         <id>https://yasee1994.github.io/post/cha-xun-yi-chu-ya-ma-xun-fba-ku-cun-de-ding-dan-hao-de-fang-fa/</id>
         <link href="https://yasee1994.github.io/post/cha-xun-yi-chu-ya-ma-xun-fba-ku-cun-de-ding-dan-hao-de-fang-fa/">
@@ -607,6 +581,40 @@ but GCC Server is opened right?,i can play in UAE by a new account only
 联系卖家支持，或者去Qexpress官网看（目前暂时还是这个）</p>
 <p>好啦最近更新的帖子就是这个了没什么新的内容因为一直在准备其他平台<br>
 PS问下各位同行沙特站你们做的怎么样啦？</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[对于打造跨境电商品牌的一些理解]]></title>
+        <id>https://yasee1994.github.io/post/dui-yu-da-zao-kua-jing-dian-shang-pin-pai-de-yi-xie-li-jie/</id>
+        <link href="https://yasee1994.github.io/post/dui-yu-da-zao-kua-jing-dian-shang-pin-pai-de-yi-xie-li-jie/">
+        </link>
+        <updated>2020-12-25T01:51:01.000Z</updated>
+        <content type="html"><![CDATA[<p>今天交谈后思考了一下关于跨境电商品牌的问题以及对自己未来发展的一些想法<br>
+直接说重点吧：</p>
+<h1 id="关于品牌">关于品牌</h1>
+<ol>
+<li>品牌和自建站很重要，建议所有想要认真做跨境电商的朋友可以认真考虑一下。</li>
+</ol>
+<p>2.品牌的本质是细节也是客户的信任，所以打造品牌不如说是做好细节来赢得客户的信任。世界上大部分的交易都属于交易信任</p>
+<p>我认为，小卖家依然是有机会做好一个品牌的，也十分有必要做出来一个品牌</p>
+<p>◎ 你的产品包装设计的怎么样呢？</p>
+<p>◎ 你的网站建设的怎么样呢？对应你的产品的用户画像群体是否会喜欢呢？</p>
+<p>◎ 网站的优化怎么样呢？比如打开的速度如何？</p>
+<p>◎ 你的网站是可以让人放心的在上面购买吗？你做了哪些动作？</p>
+<p>◎ 你网站上面的图片以及产品图片是否吸引人？</p>
+<p>◎ 要不要添加一个很棒的视频进去啊？</p>
+<p>◎ 那些主流社交软件是否有和网站互动？</p>
+<p>◎ 产品的描述标题是否合格，是否有客户需要的内容？</p>
+<p>◎ 网站里的售后体系是否完善？</p>
+<p>◎ 客服的回复怎么样？</p>
+<p>◎ 售后及不及时？</p>
+<p>◎ 有没有数据分析呢？</p>
+<p>◎ 市场的反馈如何？有没有调研？</p>
+<p>所以各位，先不要把品牌想的如何如何，品牌就是细节，就是要把每一个细节点打造好做好，获取用户的认可，然后形成口碑效应。</p>
+<p>记住：没有任何一个品牌都是一蹴而就的，天然就拥有那么多的受众。所有的客户都是要积累的，所有的品牌都是需要认识的。</p>
+<p>如果你一开始路子铺的太广，考虑了一遍觉得自己什么都做不了啊，然后就想着和品牌绝缘了，这种想法是错的。</p>
+<p>按照我上面说的，一步一步的把他做好，优化好，让你自己都觉得满意，多花一点时间，这是没有任何问题的。</p>
+<p>品牌不是有钱人的专利，任何有钱的主也必须做好上述条件。一步一步做嘛，什么都觉得不行，不采取行动，那就真的不行了。</p>
 ]]></content>
     </entry>
 </feed>
