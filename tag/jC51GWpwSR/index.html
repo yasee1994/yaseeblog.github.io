@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="YASEE的电商创业生活博客">
+<meta name="description" content="温故而知新">
+<meta name="theme-color" content="#000">
+<title>Yasee的博客</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1666094739693">
+<link rel="stylesheet" href="/media/css/pisces.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/default.css"
+  rel="stylesheet">
+
+<link rel="stylesheet" href="/styles/main.css">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128932607-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128932607-1');
+</script>
+
+
+
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>Yasee的博客</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">更新些日常感悟</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout  pisces">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">YASEE</p>
+    
+    <div class="site-description right-motion">
+      
+      
+      
+        <p>英文名Yasee，每天都在瞎折腾些事情</p>
+      
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">13</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">6</span>
+        <span class="site-item-stat-name language" data-lan="category">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">6</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+  
+  
+    <div class="sidebar-item sidebar-item-social">
+      <div class="social-item">
+        
+          
+            <a href="https://twitter.com/yzp857888144">
+              <i class="fa fa-twitter" title="Twitter"></i>
+            </a>
+          
+        
+        
+          
+            <a class="social-img" href="#">
+              <img src="\media\images\custom-array-imgSocials-1608848873908-socialImg.jpg" />
+              <i class="fa fa-wechat" title="微信公众号" ></i>
+            </a>
+          
+        
+      </div>
+    </div>
+  
+
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'pisces';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box tag-line box-shadow-wrapper">
+          <section class="section tags-section posts-expand bg-color">
+            <div class="padding-wrapper">
+  <div class="tag-timeline-box">
+    <div class="tag-timeline-wrapper">
+      <div class="tag-timeline-title">
+        <h2>
+          Python
+          <small class="language" data-lan="tag">标签</small>
+        </h2>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://yaseeblog.github.io/post/python-de-selenium-zai-ubuntu-shang-yu-dao-de-ban-ben-wen-ti-bao-cuo/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              12-25
+              <small>Python的selenium在ubuntu上遇到的版本问题报错</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      <a href="https://yaseeblog.github.io/post/python-tiao-chu-dan-xun-huan/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              12-25
+              <small>Python 跳出单循环</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a
+        href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="pisces back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+    back2TopText = document.querySelector('#back_to_top_text'),
+    drawerBox = document.querySelector('#drawer_box'),
+    rightSideBar = document.querySelector('.sidebar'),
+    viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener('scroll', function (e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+
+  let hasCacu = false;
+  window.onresize = function () {
+    calcuHeight();
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, transitionDir, {});
+          }
+        })
+        window.Velocity(viewport, openProp, {
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'false'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target", "_blank");
+      }
+    })
+  }
+
+  let faSearch = document.querySelector('#fa_search');
+  faSearch.addEventListener('click', function () {
+    document.querySelector('#search_mask').style = ''
+  })
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+  
+  // 离开当前页title变化
+  var leaveTitle = "";
+  if (leaveTitle) {
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState == 'hidden') {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script>
+  let images = document.querySelectorAll('.section img');
+  console.log(images);
+  images.forEach(image => {
+    var parent = image.parentElement;
+    var next = image.nextElementSibling;
+    parent.removeChild(image);
+    var aelem = document.createElement('a');
+    aelem.href = image.src;
+    aelem.dataset['fancybox'] = 'images';
+    aelem.dataset['rel'] = 'fancybox-button';
+    aelem.classList.add('fancybox');
+    aelem.appendChild(image);
+    parent.insertBefore(aelem, next);
+  })
+</script>
+  </div>
+</body>
+
+<div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/liao-yi-xia-ya-ma-xun-zhong-dong-zhan-gan-gen-mai-de-na-xie-shi/"" data-c="
+          &lt;p&gt;相信最近有不少卖家也遭遇过或者正遭遇着类似的情况，一条辛苦打造起来的Listing，突然被跟卖了，而跟卖的卖家居然是亚马逊，向平台投诉，收到的总是模棱两可的官样模板邮件回复，平台不做出任何处理，而就Listing本身来说，你调价格，亚马逊也紧跟着就调价，然后霸占着购物车，让你原本很多的订单，一下子就零零散散了，甚至会有客户发邮件告知你，从亚马逊收到的货和你图片展示的并不完全一样，你依然面对的是投诉无门的境况。&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://yan1994-1301672808.cos.ap-singapore.myqcloud.com/Img/20200402120334.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;这里就哪一个案例出来和大家分享一下贴一个跟卖过我们的人&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://yan1994-1301672808.cos.ap-singapore.myqcloud.com/Img/20200325141458.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;好恨呀！&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://yan1994-1301672808.cos.ap-singapore.myqcloud.com/Img/20200402120333.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;说一下可以做的一些事情&#34;&gt;说一下可以做的一些事情&lt;/h1&gt;
+&lt;p&gt;1.发警告信&lt;br&gt;
+2.testBuy&lt;br&gt;
+3.开AtoZ投诉&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;向亚马逊绩效团队投诉&lt;/li&gt;
+&lt;li&gt;卖家后台投诉 举报违规界面（不知道哪里的可以留言问我）&lt;br&gt;
+6.开软件清跟卖？我是试过了效果也是有的（要花钱还是心疼）&lt;/li&gt;
+&lt;li&gt;还有一个可行的但是不建议的是，目前亚马逊不需要短信验证就可以注册账户（中东站）还支持COD，所以你懂得了吗？（希望不要有人用到不法的地方谢谢！公平公正的竞争做生意）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1：https://www.amazon.ae/hz/contact-us&lt;br&gt;
+2:   https://www.amazon.ae/report/infringement&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;#一些自用的模板&lt;/p&gt;
+&lt;p&gt;##第一封警告信(加粗的地方记得修改下咯)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear &lt;strong&gt;XXXXX&lt;/strong&gt; seller&lt;/p&gt;
+&lt;p&gt;sellerid: &lt;strong&gt;A2TFKXXXXX&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It has come to our attention that &lt;strong&gt;XXXXXX&lt;/strong&gt; is using the &amp;quot;&lt;strong&gt;BrandNAME&lt;/strong&gt;&amp;quot; trademark without license or prior written authorization.&lt;/p&gt;
+&lt;p&gt;As you may be aware, the unauthorized selling of “&lt;strong&gt;BrandNAME&lt;/strong&gt;” products is an illegal action that seriously infringes Trademark Law. As the Trademark owner, we did not sell you, nor authorize you to sell, any “&lt;strong&gt;BrandNAME&lt;/strong&gt;” branded products. Also, you are against Amazon&#39;s policy and UAE local law.&lt;/p&gt;
+&lt;p&gt;We kindly request that you follow our instructions:&lt;/p&gt;
+&lt;p&gt;a) Remove your offers from all “&lt;strong&gt;BrandNAME&lt;/strong&gt;” product pages on amazon.com within 24 hours, and do not list items on &lt;strong&gt;BrandNAME&lt;/strong&gt;’s product pages in the future.&lt;/p&gt;
+&lt;p&gt;If you don&#39;t comply with these demands, we&#39;ll have no choice but to file an official claim with the amazon.ae Seller Performance Department, which will seriously impact your Amazon performance.&lt;br&gt;
+And our legal team will take further action on your company&lt;/p&gt;
+&lt;p&gt;Here is a link of the product in question&lt;/p&gt;
+&lt;p&gt;Attach a follow-up link and asin&lt;br&gt;
+&lt;strong&gt;XXXXXXXX&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Good Luck!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;购买test-buy前的最后一份警告&#34;&gt;购买test buy前的最后一份警告&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear Seller&lt;/p&gt;
+&lt;p&gt;This is the last Notice&lt;br&gt;
+It has come to our attention that هyou are using the &amp;quot;&lt;strong&gt;BrandNAME&lt;/strong&gt;&amp;quot; trademark without license or prior written authorization.&lt;/p&gt;
+&lt;p&gt;As you may be aware, the unauthorized selling of “&lt;strong&gt;BrandNAME&lt;/strong&gt;” products is an illegal action that seriously infringes Trademark Law. As the Trademark owner, we did not sell you, nor authorize you to sell, any “Holahoney” branded products. Also, you are against Amazon&#39;s policy and UAE local law！&lt;/p&gt;
+&lt;p&gt;We kindly request that you follow our instructions:&lt;/p&gt;
+&lt;p&gt;a) Remove your offers from all “&lt;strong&gt;BrandNAME&lt;/strong&gt;” product pages on amazon.com within 24 hours, and do not list items on &lt;strong&gt;BrandNAME&lt;/strong&gt;’s product pages in the future.&lt;/p&gt;
+&lt;p&gt;If you don&#39;t comply with these demands, we&#39;ll have no choice but to file an official claim with the amazon.ae Seller Performance Department, which will seriously impact your Amazon performance.&lt;br&gt;
+And our legal team will take further action on your company&lt;/p&gt;
+&lt;p&gt;Here is a link of the product in question&lt;/p&gt;
+&lt;p&gt;Attach a follow-up link and asin&lt;br&gt;
+&lt;strong&gt;XXXXX&lt;/strong&gt;&lt;br&gt;
+https://www.amazon.ae/gp/offer-listing/&lt;strong&gt;XXXXX&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Good Luck!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;投诉给亚马逊的信&#34;&gt;投诉给亚马逊的信&lt;/h2&gt;
+&lt;p&gt;这个就真没模板啦不会英语的朋友可以上网去用谷歌翻译吧，反正写清楚点到底哪里违规就好了，越细越好.&lt;/p&gt;
+&lt;h1 id=&#34;亚马逊的回复&#34;&gt;亚马逊的回复&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://yan1994-1301672808.cos.ap-singapore.myqcloud.com/Img/20200402114040.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+当然这个邮件发过来后我有看了下这个卖家还是没有被马上关店.所以不要开心太早，但是也不要气馁，一次不行再继续举报，跟买狗不走就投诉到他关店！&lt;/p&gt;
+&lt;p&gt;就这么多了，祝大家早日摆脱跟买狗。希望各位大佬多多指点提携。&lt;/p&gt;
+">聊一下亚马逊中东站赶跟卖的那些事</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/shi-zhan-ru-he-kuai-su-ti-gao-gu-ge-seo-sou-suo-pai-ming/"" data-c="
+          &lt;p&gt;这次用自己亲手做的一个项目来分享一下自己做谷歌SEO排名的思路和方法，以及展示下效果以此帮助&lt;strong&gt;准备/刚刚&lt;/strong&gt;入行的朋友。&lt;/p&gt;
+&lt;p&gt;网上太多这类的指导做谷歌SEO排名文章的大多都是抄来抄去，虽然讲的都有道理但是每次看完都会有种好像懂了但是却又什么都没学到的感觉，故在此结合一下自己做的一次实战，&lt;strong&gt;由于商业隐私保密缘故在这就不会暴露出来名字，也希望各位读者不要特地去查找&lt;/strong&gt;，本文仅做为自己的分享记录使用，如果有想要进一步的讨论学习可以留言给我或者添加笔者的微信讨论，谢谢。&lt;/p&gt;
+&lt;h2 id=&#34;网站优化&#34;&gt;网站优化&lt;/h2&gt;
+&lt;h3 id=&#34;网站的优化&#34;&gt;网站的优化&lt;/h3&gt;
+&lt;p&gt;**速度：**尽量要做到2s内，可以由&lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/&#34;&gt;google PageSpeed Insights &lt;/a&gt;来分析问题并且检查修改至少需要达到80分以上&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;网站是否对手机设备友好&lt;/strong&gt;：这点也十分重要，2019年已经不是十年前大家还在靠电脑上网的时代了，移动互联网的普及把大部分的pc流量分到的移动端，随着Google推出移动优先指数，移动优化变得越来越重要，如果你的网站对于手机设备不兼容或者谷歌认为你不易使用，那么很遗憾你基本上很难在手机上获得一个好的排名！&lt;/p&gt;
+&lt;p&gt;**Https/ssl:**给你的网站价格https吧不是那么难，也有不少免费的服务比如cloud flare或者lets encrypt, 老生常谈了，https真的很重要，加一个吧兄弟。&lt;/p&gt;
+&lt;p&gt;**AMP：**移动设备加速计划，Accelerated Mobile Pages Project，是目前谷歌针对手机等移动端排名的重要指标，但是并非决定性的因素，只能说是加分项，比如我的博客里的每一个页面都做了amp版本&lt;/p&gt;
+&lt;h3 id=&#34;内容优化&#34;&gt;内容优化&lt;/h3&gt;
+&lt;h4 id=&#34;商品页面内容&#34;&gt;商品页面内容：&lt;/h4&gt;
+&lt;p&gt;标题/描述/参数/视频/图片/FAQ 做好每一个点，对于你的客户来说也是提高转换率的一个非常好的办法&lt;/p&gt;
+&lt;h4 id=&#34;多媒体内容&#34;&gt;多媒体内容：&lt;/h4&gt;
+&lt;p&gt;图片其实也是可以成为外链的一种！参考谷歌用图片搜索的时候的内容。&lt;/p&gt;
+&lt;h4 id=&#34;url长度&#34;&gt;URL长度：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;**级别：**尽量不要把网页的级别拉的太长.&lt;/p&gt;
+&lt;p&gt;比如xxx.com/aabb就会比xxx.com/cate/aabb权重大的多&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;**长度：**不要过长的url也不要那种可读性很差的url&lt;/p&gt;
+&lt;p&gt;比如拿日期来做url的方式（个别类型网站除外），过长的URL可能不利于页面的搜索引擎收录。行业研究发现，短网址在谷歌的搜索结果中往往有轻微的优势。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;网站的可信度&#34;&gt;网站的可信度：&lt;/h4&gt;
+&lt;p&gt;Terms of Service and Privacy Pages以及contact us 页面有助于告诉谷歌，我的网站是值得信赖的，不仅是为了排名，对于客户来说也是很总要，作为一个网站特别是电商网站来说，信任度是很重要的。&lt;/p&gt;
+&lt;h2 id=&#34;关键词的选择&#34;&gt;关键词的选择&lt;/h2&gt;
+&lt;p&gt;**选好关键词：**在这个网站多如牛毛的世界里长尾词非常重要，比如我的一个网站做汽配像car sticker in Dubai 之类的词每天都能带来不少的订单，借助一些工具比如SEMrush，或者是谷歌的关键词工具，并且结合上你的竞争对手的词（用SEMrush可以看到或者其他的一些工具）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;选完关键词后做什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;填充到网站中，做好内链以及页面描述文本&lt;/li&gt;
+&lt;li&gt;在外链中使用该关键词&lt;/li&gt;
+&lt;li&gt;博客文章中尽量覆盖这些关键词&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;细讲下1,在首页的底部以及每一个分类页中加入一段描述该页面的300-500字数的段落，并且嵌入你选出的关键词（如果是分类页就嵌入该分类的词）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;标题中的关键字&lt;/li&gt;
+&lt;li&gt;页面描述中的关键字&lt;/li&gt;
+&lt;li&gt;H1标签中的关键字&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;社交平台运营&#34;&gt;社交平台运营&lt;/h2&gt;
+&lt;h4 id=&#34;facebook-ins-pinterest&#34;&gt;Facebook/ Ins / Pinterest&lt;/h4&gt;
+&lt;p&gt;用工具吧，自动化营销，没推广的时候就经常分享点网址的更新，或者和粉丝进行互动玩一些小游戏等，保持活跃。这里可以给你带来不少隐形的流量，也可以提高你的品牌可信度。&lt;/p&gt;
+&lt;h4 id=&#34;youtube视频&#34;&gt;YouTube视频&lt;/h4&gt;
+&lt;p&gt;毫无疑问，YouTube视频在排名的待遇真的可以算的上是“谷歌的亲儿子”。不可否认，流媒体时代、眼球经济，视频有着天然的优势（毕竟大家都懒得去阅读我这样又臭又长的文章了）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;案例：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个在自家频道上的介绍怎么使用一款汽车镀晶产品的视频，每天除了阿联酋地区的客户也会引来不少的其他国家的客户流量。&lt;/p&gt;
+&lt;h2 id=&#34;博客内容的更新&#34;&gt;博客内容的更新&lt;/h2&gt;
+&lt;p&gt;博客的内容建设非常重要，一个好的博客能给你带来不少&lt;strong&gt;免费&lt;/strong&gt;流量甚至是订单以及提高你的主站权重。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;怎么写？用软件做&lt;strong&gt;伪原创&lt;/strong&gt;也好，请写手也好，自己动手丰衣足食也好根据自身情况来定.尽量能够自己发布原创文章。&lt;/li&gt;
+&lt;li&gt;有规律的更新：给自己定一个小目标每周一定要写固定几篇的文章进行上传&lt;/li&gt;
+&lt;li&gt;博客的内容：做好对用户真正有帮助的文章或者视频，谁也不是傻子，那种只为了打广告而打广告的内容就算你骗得用户点开了，人也不会去购买。&lt;/li&gt;
+&lt;li&gt;标题：这里和排名就没有关系了，提到标题只是想说标题党的那一套真的很好用，有的时候第一名和第二名其实差别并没有多少，而在于你的标题能不能一下子吸引到客户，多用点比较吸引眼球的词Best / Your favorite / Top 10 / Step by Step / 1 Step to / Friday （人性啊人性）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;案例：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当时一个帖子让我影响深刻，是为了给自己的网站添加汽车音响设备的流量，所以我就在网络上整理了一下一些自己平常收集的音乐&lt;/p&gt;
+&lt;p&gt;然后用软件做成音乐合集上传到YouTube平台里，并且写了一个博客介绍每一个音乐，标题名字是《2018年Top 10 最好的bass车载音乐》，最后在文章结尾放上一些客户改装案例。效果还是不错的只是很遗憾，因为网站从magneto迁移到WordPress里，导致不少内容丢失当时没有记录下来。&lt;/p&gt;
+&lt;h2 id=&#34;外链的建设&#34;&gt;外链的建设&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;没有那么重要，也没有那么不重要&lt;/strong&gt;。结合你关键的那么几个页面和关键词做优质外链拒绝垃圾链接，链接的分布也需要均衡，Edu或者论坛，问答站，导航站，合作品牌官网的友链，图片站视频站，一定要注意分布好每一种链接，并且有规律的添加，不要隔三差五的来，坚持1-2个月你就会发现你的各个关键词的排名都在飞速上涨&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;案例：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于这个项目我选择了一些论坛比如reddit的迪拜社区以及本地的汽车社区论坛进行注册账号以及内容的发布，&lt;strong&gt;但是&lt;/strong&gt;注意并不是单纯的做spam，而是真正的作为一个用户，以社区用户的角度去发布内容，去分享，具体可以自行查看知乎的内容，其实里面有一大部分都是来做广告的，只不过大家的水平高低是否容易看得出来。&lt;strong&gt;低质量的内容只会给你的网站以及品牌带来负面影响！&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;用心去做网站吧，那些靠量堆的时代已经一去不复返了，2019年至未来的几年内，这种现象只会越来越明显，只有真正用心运营的网站才能在SEO获得一席之地。&lt;/p&gt;
+">实战如何快速提高谷歌SEO搜索排名</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/chang-yong-gong-ju-he-ji-chi-xu-geng-xin/"" data-c="
+          &lt;p&gt;由于自己用的软件和网站比较多所以开个帖子列一些经常会用到的网站和软件合集，方便自己记忆也顺便发个福利。&lt;/p&gt;
+&lt;h1 id=&#34;文章编辑&#34;&gt;文章编辑&lt;/h1&gt;
+&lt;h2 id=&#34;markdown编辑器&#34;&gt;MarkDown编辑器&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Simplenote: 全平台支持的markdown编辑器&lt;br&gt;
+超级推荐！！！真的蛮好用的简单而且同步方便，重要是完全免费！之前一直在用bear，的确是做的很漂亮，但是需要订阅收费而不能一次买断真的很不舒服。。。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;onenote:主要是ipad手写做做笔记用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;伪原创&#34;&gt;伪原创&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SpinnerChief5:是一款英文伪原创的软件,相信很多做英文SEO的朋友都用过或者听过，超好用再也不怕网站的文章来源了&lt;/li&gt;
+&lt;li&gt;The best spinner:同上&lt;br&gt;
+两个伪原创软件就不做比较了各有各的好处因为本人对这边的需求没有那么大所以一直是在用SpinnerChief5(因为穷，SpinnerChief5是免费的)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;图片&#34;&gt;图片&lt;/h1&gt;
+&lt;h2 id=&#34;图片素材&#34;&gt;图片素材&lt;/h2&gt;
+&lt;p&gt;还在用百度或者谷歌图片吗？是时候和他们说再见了&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UNSPLASH: 用的最多的一个网站经常上去寻找优质的图片素材，重要是免费！不用担心版权&lt;/li&gt;
+&lt;li&gt;Pixabay: 同上&lt;/li&gt;
+&lt;li&gt;Visualhunt：可以按色系来搜索图片&lt;/li&gt;
+&lt;li&gt;iconfont：免费icon百科网站。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.texturepalace.com/&#34;&gt;Texturepalace&lt;/a&gt;:ps纹理素材&lt;/li&gt;
+&lt;li&gt;picGo:连接腾讯云上传图片用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;图片处理&#34;&gt;图片处理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.canva.com/&#34;&gt;Canva&lt;/a&gt;：不会用ps的朋友可以使用这个还不错，用来快速做海报或者设计平台的图片&lt;/li&gt;
+&lt;li&gt;Tinypng: jpg也可以压缩哦，免注册免费免下载，一键压缩&lt;/li&gt;
+&lt;li&gt;PhotoShop：不多解释真的神器，网上很多教程可以学习&lt;/li&gt;
+&lt;li&gt;Affinity Designer: 我用来代替AI的一款软件（一次性付费300左右RMB终身使用，超级良心）可以百度下网上的对比&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;视频&#34;&gt;视频&lt;/h1&gt;
+&lt;h2 id=&#34;视频素材&#34;&gt;视频素材&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://weibo.iiilab.com/&#34;&gt;微博视频下载工具&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;视频处理&#34;&gt;视频处理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Adobe premiere: 剪辑视频&lt;/li&gt;
+&lt;li&gt;Adobe after Effect: 做特效必备&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;思维导图&#34;&gt;思维导图&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Xmind: windows上经常用的一个脑图软件还不错&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;seo&#34;&gt;SEO&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lsigraph.com&#34;&gt;LSIGraph&lt;/a&gt;: 输入一个关键词会自动生成相关的词语&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.copyscape.com&#34;&gt;copyscape&lt;/a&gt;：文章或网页查重&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quetext.com&#34;&gt;quetext&lt;/a&gt;:同上&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://plagiarisma.net/&#34;&gt;plagiarisma&lt;/a&gt;:同上&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://serps.com/tools/rank-checker/&#34;&gt;serps&lt;/a&gt;:输入一个关键词然后查询在对应国家的排名，感觉没啥用但是总是偶尔会有需求&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.siteliner.com&#34;&gt;siteliner&lt;/a&gt;一般我用来检查网站的死链工具&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;运营&#34;&gt;运营&lt;/h1&gt;
+&lt;h2 id=&#34;社交平台&#34;&gt;社交平台&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;: 同步发布你的所有社交平台，强烈推荐这类产品&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://top-hashtags.com&#34;&gt;Top-HashTags&lt;/a&gt;: 超方便的用来自动生成一系列的hashtag&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;产品经理&#34;&gt;产品经理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Axure: 画原型图，基本上是个产品经理都听过或者使用过吧&lt;/li&gt;
+&lt;li&gt;POP：手机上画原型图，可以直接对手绘图像做交互&lt;/li&gt;
+&lt;li&gt;Trello：团队协作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;开发&#34;&gt;开发&lt;/h1&gt;
+&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
+&lt;p&gt;有空的时候开帖子说一下Python的库，在这里只介绍软件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anaconda: 管理环境（推荐新手一开始就安装好，要不然像我这样的强迫症会疯掉）&lt;/li&gt;
+&lt;li&gt;Pycharm: 从入门用到现在&lt;/li&gt;
+&lt;li&gt;Jupyter notebook：做数据处理或者AI开发必装，分段执行+可视化数据超级好用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ios开发&#34;&gt;IOS开发&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Xcode：没啥好解释的，好像也没其他更好的选择了，以后开个帖子说一下一些好用的插件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;php等其他语言&#34;&gt;PHP等其他语言&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sublime: 因为我对其他语言的需求比较少最多就写一些Php做接口或者是一些js&lt;/li&gt;
+&lt;li&gt;Dreamweaver：网上挺多人吐槽这个的，但是不得不说这种所见即所得的方式对于我这种需求不大的人来说真的很爽&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;服务器-树莓派&#34;&gt;服务器 &amp;amp; 树莓派&lt;/h2&gt;
+&lt;p&gt;不知道怎么分类就干脆把两个放一起吧= =&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker：不知道放在那里合适，因为他真的太好用了，每一个开发者都可以尝试学一下&lt;/li&gt;
+&lt;li&gt;Filezilla: ftp/sftp上传下载文件必备&lt;/li&gt;
+&lt;li&gt;putty：在ubunt和mac上可以直接使用终端，在windows上就使用这款软件管理也是不要太方便&lt;/li&gt;
+&lt;li&gt;VNC Viewer：链接VNC到树莓派的，免费好用（自己用teamviewer比较多。。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;渗透&#34;&gt;渗透&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.shodan.io/&#34;&gt;shodan&lt;/a&gt;: 用于搜索硬件的引擎&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;windows&#34;&gt;Windows&lt;/h1&gt;
+&lt;h2 id=&#34;synergy如果你和我一样平常是用两台电脑的话这个简直神器&#34;&gt;synergy:如果你和我一样平常是用两台电脑的话这个简直神器。&lt;/h2&gt;
+">常用工具合集（持续更新）</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/2018-nian-guo-qu-liao-zong-jie-xia-zi-ji-jing-shou-de-yi-ge-kua-jing-dian-shang-xiang-mu-de-yi-xie-jing-yan/"" data-c="
+          &lt;h1 id=&#34;项目分析&#34;&gt;项目分析&lt;/h1&gt;
+&lt;p&gt;坐标阿联酋，针对用户为本地群众&lt;/p&gt;
+&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;p&gt;###技术框架&lt;/p&gt;
+&lt;p&gt;Magento用的主题是Porto ，服务器一开始是阿里云的但是因为成本问题改为性价比比较高的&lt;a href=&#34;https://www.vultr.com/?ref=7593503&#34;&gt;vultr&lt;/a&gt; 20美元/月套餐，如果你也是用Magento建站推荐最低使用20美元的VPS！&lt;/p&gt;
+&lt;h3 id=&#34;营销方式&#34;&gt;营销方式&lt;/h3&gt;
+&lt;p&gt;Facebook等社交平台推广促销，SEO等免费流量&lt;/p&gt;
+&lt;h3 id=&#34;seo&#34;&gt;SEO&lt;/h3&gt;
+&lt;p&gt;由于SEO这类目的内容较多所以我就都写在了另一个帖子里：&lt;/p&gt;
+&lt;h1 id=&#34;总结&#34;&gt;总结&lt;/h1&gt;
+&lt;h2 id=&#34;物流&#34;&gt;物流&lt;/h2&gt;
+&lt;p&gt;物流真的是一个大坑，每周一小吵每月一大吵，天天就是把客户弄到生气，然后客户来骂我们，然后我们去投诉物流，对于中东地区的物流真的是很绝望: (&lt;/p&gt;
+&lt;p&gt;试过Wing（就是和Souq一起的那个物流，做物流集中平台的），也试过fetchr，在这里点评下这两个号称中东最大的两个物流公司吧&lt;/p&gt;
+&lt;h3 id=&#34;wing-2020更新-他们换名字了&#34;&gt;Wing: （2020更新 他们换名字了）&lt;/h3&gt;
+&lt;p&gt;他们家只是提供物流集中平台的，就是说做个中间人帮你控制联系第三方物流，价格中规中矩虽然是中间商但是也不会比外面的其他公司高，按你的订单量来定。&lt;/p&gt;
+&lt;p&gt;优点：覆盖面积是广啦，基本上没有送不到的地方，客户经理的服务态度还不错，至少负责我们的那个是这样的，很认真，做到上班时间秒回。&lt;/p&gt;
+&lt;p&gt;缺点：中间商嘛，你没办法很好的控制你的下游服务，超多次出现物流小哥对客户态度恶劣甚至出现直接让顾客取消订单的情况（投诉也没啥用，顶多警告什么的，毕竟不是自己的团队有啥办法）。&lt;/p&gt;
+&lt;h3 id=&#34;fetchr不建议&#34;&gt;fetchr：（不建议）&lt;/h3&gt;
+&lt;p&gt;还不错吧就是对小客户不理不睬的（100单/天）&lt;/p&gt;
+&lt;h3 id=&#34;imile贵-但是都是中国人怎么说呢服务是真不错我认识的几个客户经理来说&#34;&gt;Imile：（贵。。但是都是中国人怎么说呢服务是真不错我认识的几个客户经理来说）&lt;/h3&gt;
+&lt;p&gt;如果没得选的话你就选Imile吧（不是做广告，没收一毛钱）&lt;/p&gt;
+&lt;h2 id=&#34;产品&#34;&gt;产品&lt;/h2&gt;
+&lt;p&gt;汽配类&lt;/p&gt;
+&lt;h2 id=&#34;流程&#34;&gt;流程&lt;/h2&gt;
+&lt;p&gt;一开始采用全部人工方式，导致时间和效率成本十分的高，客服方面是体现的最为明显的，因为是零售所以没有办法接受这样的效率，所以再后来使用上了 Chatfuel 用来自动回复messenger消息，并且嵌入到网站中。&lt;/p&gt;
+&lt;p&gt;商品的信息填充上，图片处理后来使用PS的批处理，也写了一个python脚本调用pillow库来处理，对比下来其实PS的批处理已经足够了。但是如果对于其他平台的信息采集时使用python来实现会更加无缝操作。&lt;/p&gt;
+">2018年过去了，总结下自己经手的一个跨境电商项目的一些经验。</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/shang-ye-ni-xiang-gong-cheng-san-da-fang-fa-yi-ji-si-kao/"" data-c="
+          &lt;h1 id=&#34;商业逆向工程三大方法以及思考&#34;&gt;商业逆向工程三大方法，以及思考&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;你是否也有感觉过自己/企业/产品业务好像这两年进步缓慢，在最近阅读了一些文章后笔者结合了自己的一些情况作了思考，感觉还是很有帮助，所以特地开一篇帖子来分享下思路以及一些有趣的东西&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;整个社会都在以一个不停的向前进步，无论快或是慢&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不可否认，在当今的社会里时常会感觉到仿佛在逆水行舟，不进则退，经常感觉到压力很大，仿佛一刻的休息就已经被人甩到无法追赶的距离。&lt;/p&gt;
+&lt;p&gt;个人如此，企业也是如此，同行的竞争越来越激烈，18年末中国的互联网行业也是越加的能感受到寒冬的危机，互联网就像一个没有硝烟的战场，每时每秒都有可能会有一家公司或是企业死去。&lt;/p&gt;
+&lt;h2 id=&#34;增长工程学&#34;&gt;增长工程学&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;流量红利越来越少甚至消亡，我们怎样思考新的增长空间？我们怎样找增长点？有哪些角度有哪些抓手？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;企业需要不断的进步不断地增长，但是每片市场的蛋糕就只有这么大，想要来分一杯羹的对手不计其数，你有没有想过怎么做才能在片战场中让自己不出局并且还能够脱颖而出？&lt;br&gt;
+企业的‘’范式‘’（Paradigm）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;范式（Paradigm），或典范，又可称为世界观(world view)，由托马斯·库恩提出。在1960年之后是指在科学领域和知识论行文中的思维的方式。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在实践中，我们将增长工程学简单地分为两步：&lt;/p&gt;
+&lt;p&gt;a. 商业逆向工程（Business Reverse Engineering）：解构商业案例，逆推增长策略和数据，找到增长的杠杆。&lt;/p&gt;
+&lt;p&gt;b. 增长正向工程（Growth Forward Engineering）：用精益创业的思维打磨产品，然后将增长的杠杆加到自己身上，构建增长引擎。&lt;/p&gt;
+&lt;p&gt;科学研究里有范式作为思维方式，那么商业和个人规划呢？&lt;/p&gt;
+&lt;p&gt;研究中，我们发现企业增长从来就不是一蹴而就的花式技巧，那些高效的增长引擎都是精心设计过的系统化工程。其背后一定符合工程学的原理，所以，我们将其命名为“增长工程学”（Growth Engineering）也就是近年出现的新词《增长黑客》&lt;/p&gt;
+&lt;p&gt;作为一个整天折腾的人，在学习后我每年都会对自己以及对公司做一次新的规划和分析（即便是懒成我这样的人。。。）&lt;/p&gt;
+&lt;p&gt;每个企业或者个人都应该每年进行一次战略规划。该流程可帮助您评估您的业务，资源，市场，客户以及最重要的方向。企业真正把自己描绘或者定位成什么？它是如何做到的，它是否应该继续这样做？该流程可帮助您重新评估您的市场，产品和/或服务，以了解您所销售的产品是否适合您的市场。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;请思考以下三个问题&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;1）我们现在在哪里？（现状）&lt;/p&gt;
+&lt;p&gt;2）我们要去哪儿？（方向）&lt;/p&gt;
+&lt;p&gt;3）我们将如何到达那里？（途径）&lt;/p&gt;
+&lt;p&gt;而商业逆向工程简单来说就是帮助我们来更好的回答问题二和三的过程。&lt;/p&gt;
+&lt;h3 id=&#34;案例&#34;&gt;案例&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;用我自己举个例子吧&lt;/strong&gt;&lt;br&gt;
+本来想用自己来举个例子的但是斟酌了下还是考虑用一个曾经准备开始的项目来举例吧。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;风险&lt;/strong&gt;：也许辞职回国自己创业也许是一个很蠢的决定，是一个高风险的事情。自己所会的技能和所选的项目有着大量的本土竞争对手，以及国际竞争对手（好难过。。），市场每天都在快速的变化，一不小心就在存量市场中就会被竞争对手淘汰。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优势&lt;/strong&gt;：互联网创造了一个新的市场，并且它仍在增长。这既是威胁，也是机遇！&lt;/p&gt;
+&lt;p&gt;在使用以下的商业规划的几个方法来做了分析，得出结论（因为和本人利益相关，不会说的那么详细，尽量指出思路）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;公开情报来源法（Open Source Intelligence，简称OSINT）：从公开来源收集情报&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;逆向工程（Reverse Engineering）：通过成品反推设计原理&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;社会工程学（Social Engineering）：通过人际交流的方式进行渗透并获得信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;结论&#34;&gt;结论&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;搜索相关情报，初步了解项目的市场份额后，进行用户画像侧写并收集对应的竞争对手，进一步收集对方的资料&lt;/li&gt;
+&lt;li&gt;进行&lt;strong&gt;商业逆向工程&lt;/strong&gt;思考分析对手的商业模式和产品特色，生成项目的初步规划。&lt;/li&gt;
+&lt;li&gt;根据结论进行增长正向工程， 分析个人技能可行性，以MVP模型最小化产品，上线，快速测试，数据收集。&lt;/li&gt;
+&lt;li&gt;利用各种现有工具以及python等语言编写脚本自动化工作工作，来提升效率。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;数据收集的方法&#34;&gt;数据收集的方法&lt;/h3&gt;
+&lt;p&gt;tip: 如果有朋友有兴趣，以后我会详细的单独开些帖子来讲一下各个方法的实战和思路&lt;/p&gt;
+&lt;h4 id=&#34;python火车头爬虫采集数据进行分析&#34;&gt;python/火车头爬虫采集数据进行分析&lt;/h4&gt;
+&lt;p&gt;采集数据应该大家都很熟悉了吧，可以自己写，也可使用市场上成熟的第三方工具和开源代码。因为自己是IOS开发出身，所以花了点时间学习了一下python很快就上手了，不会代码的朋友可以使用火车头等工具在这里不细讲有兴趣的可以查看我以前写的关于采集中东电商Souq / Noon销量的案例：&lt;/p&gt;
+&lt;p&gt;比如说：Martech是营销和技术的结合。事实上，任何涉及数字营销的人都在处理martech，因为数字本质上是基于技术的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://martechtoday.com/downloads/marketing_technology_landscape_2017.pdf&#34;&gt;martech 高分辨率图片查看&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我也已经专门开了一篇帖子总结自己使用的一些工具&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yan1994.com/common-tools-collection/&#34;&gt;常用工具合集&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ps：打个广告，根据项目性质可接受代写python脚本采集数据&lt;/p&gt;
+&lt;h4 id=&#34;公开情报来源法&#34;&gt;公开情报来源法&lt;/h4&gt;
+&lt;p&gt;OSINT是公开情报来源的缩写。美国在911恐怖袭击之后，由美国中情局CIA在2005年建立了专门的OSINT部门。&lt;/p&gt;
+&lt;p&gt;同时，在数字营销时代，数字化的商业公开情报也呈几何级数增长。常用的手段可以是搜索引擎，爬虫以及各种Spying工具，基本上你可以获取到你想要的80%的信息了。&lt;br&gt;
+比如说如果你想要了解美团上一个产品的去年的价格怎么办，你可以使用&lt;a href=&#34;https://web.archive.org/&#34;&gt;网页博物馆&lt;/a&gt;来进行查看（也有因为这个工具翻车的，就不细说是那家公司啦）。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1935年3月20日,一位名叫伯尔托尔德·雅各布的瑞士作家出于对纳粹的义愤,出版了一本名为《战斗情报》的小书，向外界公开披露了德军的内幕。这本长达172 页的书籍详尽地描述了德国军队的组织结构，详细地列出了德军各级司令部、各师和各军管区的番号、编制、装备、人数、驻扎地点，还有168 名陆军各级指挥官的姓名、年龄、经历和任职时间，甚至还谈到了最新成立的装甲师。更令人惊讶的是，情报人员根据雅各布的交代，一一核对其来源，《战斗情报》的全部材料确实都是从德国公开发行的报纸、丧葬讣文甚至结婚启事上得来的，没有任何人泄露军事秘密。雅各布的工具只是一把剪刀，一罐浆糊，一个卡片盒。比如，从一则简短的讣告中，他得知驻纽伦堡的德军某师团的指挥官是某某将军；在一条关于结婚的新闻里，他又发现新郎是一个少校军衔的信号军官，而他的岳父则是某地的上校指挥官。书中还写道，“从斯图加特赶来参加婚礼的莎勒少将”,是当地的师团指挥。这样的材料越来越多，雅各布将其组成了一幅德国军队组织状况的清晰图画，而这幅图画与实情情况竟然相差无几。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;商业逆向工程&#34;&gt;商业逆向工程&lt;/h4&gt;
+&lt;p&gt;逆向工程经常被用在军事上，用来复制从战场上由常规部队或情报活动获得的别国之技术、设备、信息或其零件。二战和冷战中经常被用到。或者是计算机中进行代码的逆向。&lt;br&gt;
+现在的逆向工程大致为：对对手商业模式的拆解，运营模式的拆解，产品的拆解等等；&lt;/p&gt;
+&lt;h4 id=&#34;社会工程学&#34;&gt;社会工程学&lt;/h4&gt;
+&lt;p&gt;社会工程学：一种通过对受害者心里弱点，本能反应，好奇心，本能，贪婪灯心里来达到自己的目的（欺骗，伤害等）。比如最近最经常听到的微信卖茶叶的那批人。。。这也是黑客经常使用的一些手段。&lt;/p&gt;
+&lt;p&gt;美国前头号黑客凯文·米特尼克被认为是社会工程学的大师和开山鼻祖，著有安全著作《欺骗的艺术》。&lt;/p&gt;
+&lt;h4 id=&#34;竞品分析&#34;&gt;竞品分析&lt;/h4&gt;
+&lt;p&gt;概念说完了，那么怎么做呢&lt;/p&gt;
+&lt;p&gt;a. 第一种就是提供情报搜集（Spying）和竞品数据（Competitor Analysis）&lt;/p&gt;
+&lt;p&gt;b. 第二种是自动化营销（Marketing Automation），他们可以帮助企业更加轻松地实现数据驱动和实验驱动，同时可以通过自动化扩大商业规模。在构建自身增长引擎的时候，这些工具可以让你事半功倍。&lt;/p&gt;
+&lt;p&gt;其实写这篇文章的目的也是因为自己已经不再去正式的做产品经理的工作，但是并不代表不再带着产品经理的思维去思考其他的问题，让我们从一个产品经理的一些技能来思考一下企业的发展和规划。&lt;/p&gt;
+&lt;p&gt;一个产品经理的技能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;最简化产品&lt;/li&gt;
+&lt;li&gt;洞察力&lt;/li&gt;
+&lt;li&gt;竞品思维能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我们主要说下竞品思维能力：一个产品分为&lt;strong&gt;导入期、成长期、成熟期和衰退期&lt;/strong&gt;。公司的业务也是一样。在公司业务的每一个时期，用好竞品分析能力能带给你非常大的帮助。在企业里我更愿意吧竞品分析规划为战略规划工具。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;竞品思维小到做个人的发展计划，大到做企业的战略规划&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;分析什么&#34;&gt;分析什么？&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出发点不对的强制竞品分析任务只会适得其反，带着目的与初衷愿景去做竞品分析，做出来的结果才有意义。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;举个例子，在之前设计app端产品是所需要的就是业务流程、操作步骤、信息展示和功能入口等，在一个对于电商网站的爬虫中则是订单量，产品的类别，价位，商品数，金额，买家数等&lt;br&gt;
+当你有清晰的目标，下一步重点做的就是和谁对，在企业竞争战略分析领域，最著名的战略分析制定工具要属&lt;strong&gt;波特的五力分析模型&lt;/strong&gt;，这五力分别指，同行业内现有竞争者的竞争能力、潜在竞争者进入的能力、替代品的替代能力、供应商的讨价还价能力、购买者的讨价还价能力。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你的竞品可能远比你想的要多！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;找竞品，第一想到的会是什么，好比说souq，自然会想到他的竞争对手noon或者是jollychic，或者是一个路边的一个烧烤小摊，你会想到竞品则是他隔壁的花甲粉（我超爱吃）以及附近的一些饭店&lt;br&gt;
+但是！这是当你以一个商家的视角去思考，你有没有试过把自己放在用户的视角下去重新定义一遍？&lt;br&gt;
+好比说‘某人’最爱的得到APP，那么如果把自己作为得到的工作人员来想的话第一肯定是喜马拉雅APP或者是什么其他的有声知识付费软件&lt;br&gt;
+但是如果作为一个用户来思考，他的竞品则可以甚至扩展为王者荣耀（如果用户画像是我这样的人的话:(）。我们必须从用户的视角去看我们到底在跟谁打对台——在这一步，我们并不是分析“对手”，而是在分析“用户”，有的时候从这种思维中也许你可以更好的去定位你的产品。&lt;br&gt;
+我们再来把用户细分一下&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户1，明确知道自己要什么，我就是想要一个让我不用大量阅读而可以学习新知识的软件&lt;br&gt;
+明显对于这类用户&lt;/li&gt;
+&lt;li&gt;用户B，想要一个开车或者睡觉前听的软件，可以利用时间消遣无聊时光&lt;br&gt;
+音频类知识栏目，感情也好或者音乐也好，像这类的软件就会变成你的竞争对手&lt;/li&gt;
+&lt;li&gt;用户C，‘吃瓜群众’我不知道要干嘛，就是想打发下时间&lt;br&gt;
+娱乐一下，打开爱奇艺看个视频；打开淘宝剁剁手，或者是打打游戏啦，也有可能在刷朋友圈的时候看到好友分享的《罗胖精选》而去下载类得到，这些都是有可能的，也就是说——&lt;strong&gt;所有可能抢占用户钱包和时间的产品都可以作为彼此的竞品&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在这里细讲下去又可以再开一篇帖子了。&lt;/p&gt;
+&lt;h2 id=&#34;思考&#34;&gt;思考&lt;/h2&gt;
+&lt;h3 id=&#34;传统运营和增长黑客&#34;&gt;传统运营和增长黑客&lt;/h3&gt;
+&lt;p&gt;无论是运营还是增长黑客都有一个非常重要的模块叫做用户拉新。&lt;strong&gt;用户拉新这件事情是围绕渠道展开的，可以吧渠道分为两类。一种渠道带来的效果是加法，一种渠道带来的效果是乘法。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;加法&lt;/strong&gt;：最熟悉的就是比如facebook的广告投放，那么这个时候就是渠道1+1，然后累计。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;乘法&lt;/strong&gt;：熟人营销，用户拉新，病毒营销等等都能达到一个倍增效应。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其实不论是传统运营的拉新、留存、促活、营收四要素，还是增长黑客的AARRR模型，他都只是企业的一种营销模式，对于我们来说跟应该花精力研究是还是企业自身的各个因素，已经在增长过程中的监控以及风险控制。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;传统行业-vs-互联网行业&#34;&gt;传统行业 vs 互联网行业&lt;/h3&gt;
+&lt;p&gt;增长的方案肯定是可以在传统行业上应用的，不管是传统企业还是互联网企业，如何增长都是企业面临的挑战&lt;/p&gt;
+&lt;p&gt;增长最重要的其实是执行方案，互联网企业可以马上修改，但传统企业不能这样。他可能意识上不是这样，但是他做增长确实有一定难度。传统企业而言对于数据的价值意识是比较到位的，但是要让这些数据发挥价值，其实还需要有断臂的勇气，比较成本在那里摆着。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在做增长的时候，一定要基于自身业务的特征，这个特征有可能是我们用户的消费频次或者是金额，也许是我们供给侧的能力，也许是其他有可能的因素，你要把所有的因素考虑全了，然后考虑真正适合这个业务最优的一个增长策略。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;流量&#34;&gt;流量？&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;流量越来越少怎么办？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对自有流量渠道进行优化，或者开拓新的流量来源，打开增量市场。&lt;/p&gt;
+&lt;p&gt;流量有一个铁律，随着数量增加流量的质量一定是下降。下降之后我们用什么增长支持？比如做教育，MBA的人群，这个人群不多，这个时候怎么办？&lt;strong&gt;他需要很大的增量，这个时候我们需要扩展其他的人群&lt;/strong&gt;。比如说研究生的人群，比如说硕士这样的人群。但是你投放这些人群的代价变得非常高，你怎样看待这些问题？其实这些策略是我们增长过程中必然考虑的策略。&lt;/p&gt;
+&lt;p&gt;比如投研究生我可以看到ROI非常差，但是我们可以通过归因的模型，做增长一定看归因，看投放之后这些人有没有转化成搜索MBA，然后再成为你的客户，通过归因的数据可以帮助你反推你的策略。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;所以做增长的时候，不仅仅考虑渠道增长，你要考虑定价、交易模式、产品整体的核心体验。我们一定要看产品的留存率，这是一定要看，否则所有的工作都是白白浪费。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;再举个例子&lt;/p&gt;
+&lt;p&gt;经手过的一个做汽配的跨境电商，流量来源平常只有社交平台的广告，后来添加了个博客，认真做了一段时间的高质量外链，和内容填充（基本每个产品都会配上YouTube自拍的视频介绍如何使用），发现慢慢的来着SEO的流量增大了很多，慢慢的把对应关键词都做到TOP1，而且成交率也还不错。在开发了一款性价比很高的产品后，发现经常也会发现一些自发拉新客户的来进行消费。但是也是因为seo流量来源，也吸引来一些需要真正的汽车配件的客户（比如说部件，）&lt;/p&gt;
+&lt;p&gt;从这次经历后自己也总结了一些要点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;产品及运营要走心&lt;/li&gt;
+&lt;li&gt;从痛点处吸引目标用户&lt;/li&gt;
+&lt;li&gt;数据驱动高效获客&lt;/li&gt;
+&lt;li&gt;服务是情怀，也是本份&lt;/li&gt;
+&lt;li&gt;专业的知识，说服用户&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2019年，快钱的时代已经要过去了，认真做好产品和服务才是最主要的。&lt;/p&gt;
+&lt;h2 id=&#34;结尾&#34;&gt;结尾&lt;/h2&gt;
+&lt;p&gt;对于企业到底要怎么做呢？&lt;/p&gt;
+&lt;p&gt;对于互联网产品来说，生命周期的理论是一样的逻辑。为了稍稍区别于一般产品生命周期包含的“引进”“成长”“成熟”“衰退”四个阶段，我这里把互联网产品的生命周期分为以下四个阶段，如图所示：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;产品导入期&lt;br&gt;
+这一阶段，用户对于品类的认知刚刚起步，绝大部分消费者根本不知道这个品类的存在，所以，想要迅速占领市场，最佳的方式就是对标人们既有认知中的老品类，以老品类竞品的身份出现更容易获得关注。用最小的&lt;strong&gt;MVP模型来不断地试错&lt;/strong&gt;，进行新产品的迭代，&lt;strong&gt;让产品尽早达到PMF状态（Product/Market Fit，产品符合市场需求）&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;产品成长期&lt;br&gt;
+对现有渠道进行优化，进入品类成长期就意味着，市场上消费者已经有部分用户了解使用这个品类的产品，但是相对于成熟品类来说，这个品类的普及程度还远远不够，品类的市场份额还需进一步扩大。对于在该品类内所处不同市场地位的品牌来说，选择谁作为竞品情况比较复杂。比如近年很火的&lt;strong&gt;Daniel Wellington（DW）手表&lt;/strong&gt;，典型的快速增长成功的案例有兴趣的朋友可以了解一下。在手表市场能够这么快这么迅速做的这么成功的公司值得你去好好分析一下：以白领学生等年轻群众作为快速增长目标用户，区分开自己与劳力士等动辄上万的定位。因为用户的时尚消费属性快速占领Ins市场，以极快的速度占领目标用户并且完成教科书般的病毒营销。&lt;/li&gt;
+&lt;li&gt;产品成熟期&lt;br&gt;
+品类成熟期是指：目标市场绝大部分消费者已经熟悉这个品类，而且对品类的需求增长逐渐缓慢，总体的市场容量保持不变或者小幅增长，这种情况下，企业的主要竞品可以以同行其他品牌，也就是我们常规意义上的竞品为主。和竞品PK的方式也很简单，只需要告诉消费者自己与别的品牌相比有何不同，即可。比如在比如说我最近在消费的猫砂，可以定位高性价比或者除臭能力，或者是结团能力。或者是日本汽车的省油等等，将这种属性融入到产品品牌中。&lt;/li&gt;
+&lt;li&gt;产品衰退期&lt;br&gt;
+这个时期，消费者对于品类的需求呈现出快速下滑，甚至出现新品类开始替代原有的老品类，比如在线阅读和纸质书本，此时对于该品类下的企业来说，就不是选哪个品牌做竞品的问题了。当务之急是要换一个赛道，寻找新的定位机会，比如：通过品类某些特性的创新，创造新的消费场景，或者通过品类分化占领新的市场机会等等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;参考文献：&lt;br&gt;
+http://growthbox.net/growthhack/3750/&lt;br&gt;
+https://en.wikipedia.org/wiki/Paradigm&lt;/p&gt;
+">商业逆向工程三大方法，以及思考</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/zi-ji-yong-de-ya-ma-xun-hui-fu-mo-ban/"" data-c="
+          &lt;p&gt;#回复差评 （可用于邮件和公开回复）&lt;/p&gt;
+&lt;p&gt;Dear Customer,&lt;/p&gt;
+&lt;p&gt;Thank you for your purchase and taking the time to write a product review. We are terribly sorry to hear the product you received is defective and would like to know if we can send you a free replacement or assist you with a refund.&lt;/p&gt;
+&lt;p&gt;Customer reviews is important to us and we value your response. All responses will be used to further improve the quality of our service and products.&lt;/p&gt;
+&lt;p&gt;Please let us know how we may assist you to resolve the issue you have experienced.&lt;/p&gt;
+&lt;p&gt;Sorry for the inconvenience and thank you for giving us the opportunity to rectify the matter.&lt;/p&gt;
+&lt;p&gt;Sincerely yours&lt;/p&gt;
+&lt;p&gt;店铺名称 Customer Service Team&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;#客户收到却说没收到&lt;/p&gt;
+&lt;p&gt;Hi Dear Nadra&lt;br&gt;
+Thanks a lot for contact with us, This is Yasee From Holahoney UAE Store.&lt;br&gt;
+First of all, I am so sorry for bringing this inconvenience. I totally understand this is not a good experience. But don&#39;t worry i will be here fighting for your right. Customer Satisfaction is the most important thing for us.&lt;/p&gt;
+&lt;p&gt;this order is Fulfilled by Amazon. and this order was hand over to the amazon courier at 7th. So just now I have been already sending a complaint to the Amazon Seller Support team for it.&lt;/p&gt;
+&lt;p&gt;In attached picture is the reply from Amazon. you by open this link:&lt;br&gt;
+and follow below step:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;choose the order&lt;br&gt;
+2.find &#39;&#39;Tell us more&#39;&#39; choose &#39;&#39; delivery issues&#39;&#39;&lt;br&gt;
+3.choose &#39;&#39;missed my order&#39;&#39;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;httpswwwamazonaegphelpcustomercontact-usrefhp_gt_comp_cu_nlnodeid504874referrala3ismguu7i5o8z_a2exx3nxxpr7xs&#34;&gt;https://www.amazon.ae/gp/help/customer/contact-us/ref=hp_gt_comp_cu_nl?nodeId=504874&amp;amp;referral=A3ISMGUU7I5O8Z_A2EXX3NXXPR7XS&lt;/h2&gt;
+&lt;p&gt;to get direct support from the amazon team.(this will be the fastest way to find out)&lt;/p&gt;
+&lt;p&gt;and if after trying above step is not working please let me know as well i will find a better solution for your immediately.&lt;/p&gt;
+&lt;p&gt;I will be here for you anytime. And During this time please take care of yourself as well.&lt;/p&gt;
+&lt;p&gt;Best regard&lt;/p&gt;
+">自己用的亚马逊回复模板</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/python-de-selenium-zai-ubuntu-shang-yu-dao-de-ban-ben-wen-ti-bao-cuo/"" data-c="
+          &lt;p&gt;今天开脚本的时候莫名其妙的跳出来这个错误，之前一直好好的，不太清楚到底问题出在哪里。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 80
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;检查了下自己的Chrome浏览器版本是‘83.0.4103.97（正式版本） （64 位）’&lt;/p&gt;
+&lt;p&gt;最后在Stackoverflow上面搜到一个解决方案：使用webdriver-manager这个库来管理，成功解决问题&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;pip install webdriver-manager
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;安装完运行测试&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;from selenium import webdriver
+&amp;gt;from webdriver_manager.chrome import ChromeDriverManager
+&amp;gt;driver = webdriver.Chrome(ChromeDriverManager().install())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;不需要每次都下载图像。webdriver_manager中有一个缓存机制，因此，如果可能，它将使用上一次运行中webdriver_manager下载的计算机上的正确驱动程序&lt;/p&gt;
+">Python的selenium在ubuntu上遇到的版本问题报错</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/python-tiao-chu-dan-xun-huan/"" data-c="
+          &lt;p&gt;不管是什么编程语言，都有可能会有跳出循环的需求，比如枚举时，找到一个满足条件的数就终止。跳出单循环是很简单的，比如&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;for i in range(10):
+   if i &amp;gt; 5:
+       print i
+       break
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然而，我们有时候会需要跳出多重循环，而break只能够跳出一层循环，比如&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;for i in range(10):
+   for j in range(10):
+       if i+j &amp;gt; 5:
+           print i,j
+           break
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这样的代码并非说找到一组i+j &amp;gt; 5就停止，而是连续找到10组，因为break只跳出了for j in range(10)这一重循环。那么，怎么才能跳出多重呢？在此记录备忘一下。&lt;br&gt;
+#跳出多重循环&lt;br&gt;
+事实上，Python的标准语法是不支持跳出多重循环的，所以只能利用一些技巧，大概的思路有：写成函数、利用笛卡尔积、利用调试。&lt;/p&gt;
+&lt;p&gt;#写成函数&lt;br&gt;
+在Python中，函数运行到return这一句就会停止，因此可以利用这一特性，将功能写成函数，终止多重循环，例如&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def work():
+   for i in range(10):
+       for j in range(10):
+           if i+j &amp;gt; 5:
+               return i,j
+
+print work()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;#利用笛卡尔积&lt;br&gt;
+这种方法的思路就是，既然可以跳出单循环，我就将多重循环改写为单循环，这可以利用itertools中的笛卡尔积函数product，例如&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;from itertools import product
+
+for i,j in product(range(10), range(10)):
+   if i+j &amp;gt; 5:
+       print i,j
+       break
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;#利用调试模式&lt;br&gt;
+笛卡尔积的方式很巧妙，也很简洁，但它只能用于每次循环的集合都是独立的情形，假如每层循环都与前一层紧密相关，就不能用这种技巧了。这时候可以用第一种方法，将它写成函数，另外，还可以利用调试模式。这个利用了调试模式中，只要出现报错就退出的原理，它伪装了一个错误出来。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;class Found(Exception):
+   pass
+
+try:
+   for i in range(10):
+       for j in range(i): #第二重循环跟第一重有关
+           if i + j &amp;gt; 5:
+               raise Found
+except Found:
+   print i, j
+&lt;/code&gt;&lt;/pre&gt;
+">Python 跳出单循环</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/cha-xun-yi-chu-ya-ma-xun-fba-ku-cun-de-ding-dan-hao-de-fang-fa/"" data-c="
+          &lt;p&gt;实名吐槽下亚马逊阿联酋的物流，&lt;br&gt;
+过两天你会收到一封亚马逊的邮件-Your FBA removal request is complete，邮件中有个移除库存细节的连接页面，打开，会看到具体的单个sku对于的数量，点击这个数量的数字&lt;/p&gt;
+&lt;p&gt;亚马逊fba 发货了，怎么查询物流&lt;br&gt;
+联系卖家支持，或者去Qexpress官网看（目前暂时还是这个）&lt;/p&gt;
+&lt;p&gt;好啦最近更新的帖子就是这个了没什么新的内容因为一直在准备其他平台&lt;br&gt;
+PS问下各位同行沙特站你们做的怎么样啦？&lt;/p&gt;
+">查询移除亚马逊FBA库存的订单号的方法</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/dui-yu-da-zao-kua-jing-dian-shang-pin-pai-de-yi-xie-li-jie/"" data-c="
+          &lt;p&gt;今天交谈后思考了一下关于跨境电商品牌的问题以及对自己未来发展的一些想法&lt;br&gt;
+直接说重点吧：&lt;/p&gt;
+&lt;h1 id=&#34;关于品牌&#34;&gt;关于品牌&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;品牌和自建站很重要，建议所有想要认真做跨境电商的朋友可以认真考虑一下。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;2.品牌的本质是细节也是客户的信任，所以打造品牌不如说是做好细节来赢得客户的信任。世界上大部分的交易都属于交易信任&lt;/p&gt;
+&lt;p&gt;我认为，小卖家依然是有机会做好一个品牌的，也十分有必要做出来一个品牌&lt;/p&gt;
+&lt;p&gt;◎ 你的产品包装设计的怎么样呢？&lt;/p&gt;
+&lt;p&gt;◎ 你的网站建设的怎么样呢？对应你的产品的用户画像群体是否会喜欢呢？&lt;/p&gt;
+&lt;p&gt;◎ 网站的优化怎么样呢？比如打开的速度如何？&lt;/p&gt;
+&lt;p&gt;◎ 你的网站是可以让人放心的在上面购买吗？你做了哪些动作？&lt;/p&gt;
+&lt;p&gt;◎ 你网站上面的图片以及产品图片是否吸引人？&lt;/p&gt;
+&lt;p&gt;◎ 要不要添加一个很棒的视频进去啊？&lt;/p&gt;
+&lt;p&gt;◎ 那些主流社交软件是否有和网站互动？&lt;/p&gt;
+&lt;p&gt;◎ 产品的描述标题是否合格，是否有客户需要的内容？&lt;/p&gt;
+&lt;p&gt;◎ 网站里的售后体系是否完善？&lt;/p&gt;
+&lt;p&gt;◎ 客服的回复怎么样？&lt;/p&gt;
+&lt;p&gt;◎ 售后及不及时？&lt;/p&gt;
+&lt;p&gt;◎ 有没有数据分析呢？&lt;/p&gt;
+&lt;p&gt;◎ 市场的反馈如何？有没有调研？&lt;/p&gt;
+&lt;p&gt;所以各位，先不要把品牌想的如何如何，品牌就是细节，就是要把每一个细节点打造好做好，获取用户的认可，然后形成口碑效应。&lt;/p&gt;
+&lt;p&gt;记住：没有任何一个品牌都是一蹴而就的，天然就拥有那么多的受众。所有的客户都是要积累的，所有的品牌都是需要认识的。&lt;/p&gt;
+&lt;p&gt;如果你一开始路子铺的太广，考虑了一遍觉得自己什么都做不了啊，然后就想着和品牌绝缘了，这种想法是错的。&lt;/p&gt;
+&lt;p&gt;按照我上面说的，一步一步的把他做好，优化好，让你自己都觉得满意，多花一点时间，这是没有任何问题的。&lt;/p&gt;
+&lt;p&gt;品牌不是有钱人的专利，任何有钱的主也必须做好上述条件。一步一步做嘛，什么都觉得不行，不采取行动，那就真的不行了。&lt;/p&gt;
+">对于打造跨境电商品牌的一些理解</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/guan-yu-zhao-pin-ren-yuan-de-si-kao/"" data-c="
+          &lt;p&gt;今天聊一聊创业时候面临的很大的问题就是招聘人员，小团队创业毕竟不是大公司，一分钱都是掰成两份用，更何况招聘方面。以下是个人观点仅供参考&lt;/p&gt;
+&lt;h1 id=&#34;如果招聘一个人员那么你会参考哪些方面&#34;&gt;如果招聘一个人员那么你会参考哪些方面？&lt;/h1&gt;
+&lt;p&gt;数据分析的能力（重要）：&lt;br&gt;
+互联网怎么样都离不开个数据，有大量的数据在对于任何事情都只有好处，店铺销量，产品分析，关键词，blablabla&lt;br&gt;
+聊聊看他对于数据的理解以及他自己的做法（可以结合他自己的项目经验，或者是你举个例子比如我要是招聘个选品的就会问他在如何去选品的思路然后看他说的内容里对于数据收集和分析的想法）&lt;/p&gt;
+&lt;p&gt;项目经验（重要）：&lt;br&gt;
+看看他的上一个项目和你所期待的工作是不是一样如果一样则可以减少培养时间，聊聊工作具体负责什么内容有遇到什么困难怎么解决，虽然很公式化的问题但是多少是可以听出点东西的&lt;/p&gt;
+&lt;p&gt;工具（参考）：&lt;br&gt;
+平常是否有使用什么工具来收集资料数据，主要是看是否有利用工具的习惯，好的工具可以加快很多工作效率&lt;br&gt;
+比如之前的自建站那时候用的SEO工具就有google search console、google analytics，SEQquake 还有蛮多的其他的忘记了。。&lt;/p&gt;
+&lt;p&gt;规则（参考）：&lt;br&gt;
+怎么说呢这点，这点是最泛的，举个例子：我之前和你说的阿联酋亚马逊怎么快速提升排名的套路就是一个自己总结的规则，可以说是对于工作的理解。&lt;br&gt;
+视觉。&lt;/p&gt;
+&lt;p&gt;语言（参考），蛮重要我觉得，基础在那里&lt;br&gt;
+产品经验：懂的优势和差异性在哪，挺重要的我觉得，有经验就是比没经验快上手而且选品推广运营方面大概率没有老手做得好，经验在哪里摆着&lt;/p&gt;
+&lt;p&gt;总结：以上是我的想法如果我招聘的话我会从这些来看他的技能程度（指电商运营）,但是我更多还是会从一个人的品质上去考虑是否合适，毕竟自己也是这样一步一步的过来的。有遗漏的欢迎补充&lt;/p&gt;
+&lt;p&gt;在福州如果有想要找这方面工作学习的朋友可以联系我, 加油吧！&lt;/p&gt;
+">关于招聘人员的思考</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/yi-jie-jue-wild-rift-ying-xiong-lian-meng-shou-you-pi-pei-chao-shi/"" data-c="
+          &lt;h1 id=&#34;问题&#34;&gt;问题：&lt;/h1&gt;
+&lt;p&gt;最近迷上了英雄联盟手游，由于博主在阿联酋的原因，中东服务器是在12月11号才开放的，之前一直是在台服和日服开VPN玩，但是发现之前的账户如果直接使用中东服务器进行游戏的话是无法匹配，会提示&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;matchmaking time out. please try again
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225141655.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;解决过程&#34;&gt;解决过程：&lt;/h1&gt;
+&lt;p&gt;在尝试了各种解决方案后发现除了重新玩一个小号剩下能摆脱这个问题的方法就是：去拳头官网&lt;a href=&#34;https://support-wildrift.riotgames.com/hc/en-us/requests/new&#34;&gt;开一个ticket&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;这是我开了case的原文，博主英语不是很好见笑了。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hi dear riot team i got problem with my account, i am living at UAE i was play wild rift with my firend before, and now when i back to UAE
+
+ i cant match game by Ranked/Normal it will always showing &#39;matchmaking time out problem&#39; please hlep me with that, otherwise i can only play it with VPN... 
+
+but GCC Server is opened right?,i can play in UAE by a new account only
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225142044.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;问题解决&#34;&gt;问题解决&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://project-1301672808.cos.ap-singapore.myqcloud.com/Yan1994/Img/2020/20201225142231.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;如图所示，最后几番沟通下riot工作人员就帮我把账户转移到了GCC服务器下，然后可以正常的开始游戏了.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;I see that you&#39;re having trouble playing on one of your accounts. To process this request and fix things up we will have to make adjustments to the Shard that your account is on. Changing your Shard will have some side effects on your account.
+
+Any purchases made before the shard transfer will be marked as non-refundable and we will not be able to process these for you after the transfer is complete.
+You may lose all Ranked Progress
+This includes MMR, Marks, Tier, Fortitude, and Victory Points.
+We are unable to reset you or make modifications to your rank
+You may not be able to see your chat history prior to your transfer
+You may not be able to see your match history or recent players list prior to your transfer
+Your wishlist may be reset
+Any active consumables (e.g. boosts) will be lost and we are unable to provide you with a replacement
+The transfer process can take up to 2-hours to complete and we suggest that you don’t make any progress on your Wild Rift account while the transfer is processing. Any progress made after we start the transfer will be lost and unable to be added to your account post transfer. Once the transfer is complete, you will need to fully log-out of Wild Rift and back in to see your account again.
+&lt;/code&gt;&lt;/pre&gt;
+">【已解决】Wild Rift 英雄联盟手游匹配超时</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/about/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;p&gt;这是一个用Gridea搭建在GitHub page上的一个静态博客页面，博主叫YASEE，很懒的一个人，但是经常爱折腾一些乱七八糟的，这里就当是记录美好生活吧！&lt;/p&gt;
+&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
+&lt;p&gt;福州，94年的天蝎座，&lt;/p&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;
+&lt;p&gt;健身，PLMM，打游戏，LOL，研究美食，各类户外活动，宅在家里，发呆一整天，酒精&lt;/p&gt;
+&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
+&lt;p&gt;邮箱yzp857888144@gmail.com（有的时候会没看到。。。。）&lt;br&gt;
+微信公众号：mryasee&lt;br&gt;
+微信：857888144（麻烦添加的时候备注下，靴靴）&lt;/p&gt;
+">关于</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://yaseeblog.github.io/post/hello-gridea/"" data-c="
+          &lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;
+✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/getgridea/gridea&#34;&gt;Github&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://gridea.dev/&#34;&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://fehey.com/&#34;&gt;示例网站&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;特性&#34;&gt;特性👇&lt;/h2&gt;
+&lt;p&gt;📝  你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;
+&lt;p&gt;🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;
+&lt;p&gt;🏷️  你可以对文章进行标签分组&lt;/p&gt;
+&lt;p&gt;📋  你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;
+&lt;p&gt;💻  你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;
+&lt;p&gt;🌎  你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;
+&lt;p&gt;💬  你可以进行简单的配置，接入 &lt;a href=&#34;https://github.com/gitalk/gitalk&#34;&gt;Gitalk&lt;/a&gt; 或 &lt;a href=&#34;https://github.com/SukkaW/DisqusJS&#34;&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;
+&lt;p&gt;🇬🇧  你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;
+&lt;p&gt;🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;
+&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;
+&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;
+&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;
+&lt;p&gt;😘 Enjoy~&lt;/p&gt;
+">Hello Gridea</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+
+<input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
+<script>
+  let language = '';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="/media/js/motion.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 200
+  });
+</script>
+
+
+
+
+
+
+</html>
