@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Python的selenium在ubuntu上遇到的版本问题报错 | Yasee的博客</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://yaseeblog.github.io/favicon.ico?v=1723446365431">
+<link rel="stylesheet" href="https://yaseeblog.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="今天开脚本的时候莫名其妙的跳出来这个错误，之前一直好好的，不太清楚到底问题出在哪里。
+&gt;selenium.common.exceptions.SessionNotCreatedException: Message: session n..." />
+    <meta name="keywords" content="Python" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://yaseeblog.github.io">
+        <img src="https://yaseeblog.github.io/images/avatar.png?v=1723446365431" class="site-logo">
+        <h1 class="site-title">Yasee的博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://yaseeblog.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Python的selenium在ubuntu上遇到的版本问题报错</h2>
+            <div class="post-date">2020-12-25</div>
+            
+            <div class="post-content" v-pre>
+              <p>今天开脚本的时候莫名其妙的跳出来这个错误，之前一直好好的，不太清楚到底问题出在哪里。</p>
+<pre><code>&gt;selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 80
+</code></pre>
+<p>检查了下自己的Chrome浏览器版本是‘83.0.4103.97（正式版本） （64 位）’</p>
+<p>最后在Stackoverflow上面搜到一个解决方案：使用webdriver-manager这个库来管理，成功解决问题</p>
+<pre><code>&gt;pip install webdriver-manager
+</code></pre>
+<p>安装完运行测试</p>
+<pre><code>&gt;from selenium import webdriver
+&gt;from webdriver_manager.chrome import ChromeDriverManager
+&gt;driver = webdriver.Chrome(ChromeDriverManager().install())
+</code></pre>
+<p>不需要每次都下载图像。webdriver_manager中有一个缓存机制，因此，如果可能，它将使用上一次运行中webdriver_manager下载的计算机上的正确驱动程序</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://yaseeblog.github.io/tag/jC51GWpwSR/" class="tag">
+                    Python
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://yaseeblog.github.io/post/python-tiao-chu-dan-xun-huan/">
+                  <h3 class="post-title">
+                    Python 跳出单循环
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

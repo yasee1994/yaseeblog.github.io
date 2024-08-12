@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yaseeblog.github.io</id>
+    <title>Yasee的博客</title>
+    <updated>2024-08-12T07:08:22.723Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yaseeblog.github.io"/>
+    <link rel="self" href="https://yaseeblog.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://yaseeblog.github.io/images/avatar.png</logo>
+    <icon>https://yaseeblog.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Yasee的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[公司客户背调的一些方法]]></title>
+        <id>https://yaseeblog.github.io/post/some-methods-of-background-check-of-company-customers/</id>
+        <link href="https://yaseeblog.github.io/post/some-methods-of-background-check-of-company-customers/">
+        </link>
+        <updated>2024-08-12T05:55:33.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="国际站询盘">国际站询盘</h2>
+<p>国际站询盘后台的&lt;买家近90天站内行为&gt;进行分析猜测：通过客户咨询的这个产品的标题和关键词，猜测客户用的什么关键词搜索的。查看客户浏览了哪些产品，最常采购的行业，常用热搜词等。</p>
+<h2 id="客户公司官网电商平台">客户公司官网/电商平台</h2>
+<ul>
+<li>
+<p>公司官网的“About US”栏目</p>
+<ul>
+<li>可以根据对方网站信息查询员工信息</li>
+</ul>
+</li>
+<li>
+<p>公司官网判断客户公司的性质</p>
+<ul>
+<li>批发商，零售商，还是网店</li>
+<li>公司办公环境，员工团队</li>
+<li>判断客户的产品类别和目标定位</li>
+</ul>
+</li>
+<li>
+<p>如果是做平台电商用户，Amazon等平台会有很多公司的信息可以快速查询</p>
+</li>
+</ul>
+<h2 id="google搜索">Google搜索</h2>
+<ul>
+<li>公司名</li>
+<li>企业官网</li>
+<li>公司决策人名+公司名</li>
+<li>公司名+SNS站点名或网址</li>
+<li>公司决策人名+SNS站点名或网址</li>
+<li>SNS站点主要锁定在Facebook和LinkedIn</li>
+<li>公司名+B2B</li>
+<li>公司名+Exhibition</li>
+<li>公司名+Report</li>
+<li>公司名+Import Date</li>
+<li>公司名+export date</li>
+<li>公司名filetype：doc、excel、pdf、all</li>
+</ul>
+<h2 id="谷歌街景地图">谷歌街景+地图</h2>
+<p>类属于国内大众点评也可以用于开发客户</p>
+<p>查看对方客户评价<br>
+查看公司信息</p>
+<h2 id="公司网站信息查询">公司网站信息查询</h2>
+<p>http://Web.Archive.org网络时光机</p>
+<p>首页快照历史变迁情况</p>
+<pre><code>判断客户历史产品，
+</code></pre>
+<p>Whois域名/网站年龄调查工具</p>
+<pre><code>whois.com，查询域名联系人的个人信息，也可以查询对方的其他公司域名，但大多数时候这一方法没什么用因为有隐私保护方式
+</code></pre>
+<p>Similarweb/网站分析工具</p>
+<p>分析域名的整体流量情况，从而判断对方的主要市场，流量来源，用了哪些关键词等等。</p>
+<p>Amfibi。com查公司基本信息</p>
+<h2 id="社交平台">社交平台</h2>
+<p>Linkedin查询<br>
+Facebook<br>
+Twitter<br>
+YouTube<br>
+Instagram</p>
+<h2 id="海关数据调查">海关数据调查</h2>
+<p>tradesns.com/<br>
+http://panjiva.com</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用在线工具prose.io将文章快速发布在GitHub仓库中的博客]]></title>
+        <id>https://yaseeblog.github.io/post/use-the-online-tool-proseio-to-quickly-publish-articles-to-the-blog-in-the-github-repository/</id>
+        <link href="https://yaseeblog.github.io/post/use-the-online-tool-proseio-to-quickly-publish-articles-to-the-blog-in-the-github-repository/">
+        </link>
+        <updated>2024-02-01T05:51:30.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://yasee1994.github.io">我的博客</a>是使用jekyll进行搭建的。</p>
+<p>jekyll语言：Ruby优势：与Github pages官方合作。应用最广，有很好的文档，众多的模板和插件。 可以从wp移植博客。可以在github上更新博客。可以通过 https://prose.io/ 直接写博客，缺点：模板基于liquid template engine，更改较复杂安装：稍复杂。再开发版本Jekyllboostrap可以在几分钟之内搞定博客，但是可选择主题较少。<br>
+由于本人较懒，上次更新博客还是在4年前（十分可怕时间过得好快），所以更新博客的方式能多简单就多简单，prose可以使用markdown进行在线编辑，也可以直接把写在电脑上的文章直接复制进来，十分方便也不需要学习任何新的知识，推荐有和我一样需求的朋友可以使用试试。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[聊一下亚马逊中东站赶跟卖的那些事]]></title>
+        <id>https://yaseeblog.github.io/post/liao-yi-xia-ya-ma-xun-zhong-dong-zhan-gan-gen-mai-de-na-xie-shi/</id>
+        <link href="https://yaseeblog.github.io/post/liao-yi-xia-ya-ma-xun-zhong-dong-zhan-gan-gen-mai-de-na-xie-shi/">
+        </link>
+        <updated>2020-12-25T06:06:26.000Z</updated>
+        <content type="html"><![CDATA[<p>相信最近有不少卖家也遭遇过或者正遭遇着类似的情况，一条辛苦打造起来的Listing，突然被跟卖了，而跟卖的卖家居然是亚马逊，向平台投诉，收到的总是模棱两可的官样模板邮件回复，平台不做出任何处理，而就Listing本身来说，你调价格，亚马逊也紧跟着就调价，然后霸占着购物车，让你原本很多的订单，一下子就零零散散了，甚至会有客户发邮件告知你，从亚马逊收到的货和你图片展示的并不完全一样，你依然面对的是投诉无门的境况。</p>
+<figure data-type="image" tabindex="1"><img src="https://yan1994-1301672808.cos.ap-singapore.myqcloud.com/Img/20200402120334.png" alt="" loading="lazy"></figure>
+<p>这里就哪一个案例出来和大家分享一下贴一个跟卖过我们的人</p>
+<figure data-type="image" tabindex="2"><img src="https://yan1994-1301672808.cos.ap-singapore.myqcloud.com/Img/20200325141458.png" alt="" loading="lazy"></figure>
+<p>好恨呀！</p>
+<figure data-type="image" tabindex="3"><img src="https://yan1994-1301672808.cos.ap-singapore.myqcloud.com/Img/20200402120333.png" alt="" loading="lazy"></figure>
+<h1 id="说一下可以做的一些事情">说一下可以做的一些事情</h1>
+<p>1.发警告信<br>
+2.testBuy<br>
+3.开AtoZ投诉</p>
+<ol>
+<li>向亚马逊绩效团队投诉</li>
+<li>卖家后台投诉 举报违规界面（不知道哪里的可以留言问我）<br>
+6.开软件清跟卖？我是试过了效果也是有的（要花钱还是心疼）</li>
+<li>还有一个可行的但是不建议的是，目前亚马逊不需要短信验证就可以注册账户（中东站）还支持COD，所以你懂得了吗？（希望不要有人用到不法的地方谢谢！公平公正的竞争做生意）</li>
+</ol>
+<blockquote>
+<p>1：https://www.amazon.ae/hz/contact-us<br>
+2:   https://www.amazon.ae/report/infringement</p>
+</blockquote>
+<p>#一些自用的模板</p>
+<p>##第一封警告信(加粗的地方记得修改下咯)</p>
+<blockquote>
+<p>Dear <strong>XXXXX</strong> seller</p>
+<p>sellerid: <strong>A2TFKXXXXX</strong></p>
+<p>It has come to our attention that <strong>XXXXXX</strong> is using the &quot;<strong>BrandNAME</strong>&quot; trademark without license or prior written authorization.</p>
+<p>As you may be aware, the unauthorized selling of “<strong>BrandNAME</strong>” products is an illegal action that seriously infringes Trademark Law. As the Trademark owner, we did not sell you, nor authorize you to sell, any “<strong>BrandNAME</strong>” branded products. Also, you are against Amazon's policy and UAE local law.</p>
+<p>We kindly request that you follow our instructions:</p>
+<p>a) Remove your offers from all “<strong>BrandNAME</strong>” product pages on amazon.com within 24 hours, and do not list items on <strong>BrandNAME</strong>’s product pages in the future.</p>
+<p>If you don't comply with these demands, we'll have no choice but to file an official claim with the amazon.ae Seller Performance Department, which will seriously impact your Amazon performance.<br>
+And our legal team will take further action on your company</p>
+<p>Here is a link of the product in question</p>
+<p>Attach a follow-up link and asin<br>
+<strong>XXXXXXXX</strong></p>
+<p>Good Luck!</p>
+</blockquote>
+<h2 id="购买test-buy前的最后一份警告">购买test buy前的最后一份警告</h2>
+<blockquote>
+<p>Dear Seller</p>
+<p>This is the last Notice<br>
+It has come to our attention that هyou are using the &quot;<strong>BrandNAME</strong>&quot; trademark without license or prior written authorization.</p>
+<p>As you may be aware, the unauthorized selling of “<strong>BrandNAME</strong>” products is an illegal action that seriously infringes Trademark Law. As the Trademark owner, we did not sell you, nor authorize you to sell, any “Holahoney” branded products. Also, you are against Amazon's policy and UAE local law！</p>
+<p>We kindly request that you follow our instructions:</p>
+<p>a) Remove your offers from all “<strong>BrandNAME</strong>” product pages on amazon.com within 24 hours, and do not list items on <strong>BrandNAME</strong>’s product pages in the future.</p>
+<p>If you don't comply with these demands, we'll have no choice but to file an official claim with the amazon.ae Seller Performance Department, which will seriously impact your Amazon performance.<br>
+And our legal team will take further action on your company</p>
+<p>Here is a link of the product in question</p>
+<p>Attach a follow-up link and asin<br>
+<strong>XXXXX</strong><br>
+https://www.amazon.ae/gp/offer-listing/<strong>XXXXX</strong></p>
+<p>Good Luck!</p>
+</blockquote>
+<h2 id="投诉给亚马逊的信">投诉给亚马逊的信</h2>
+<p>这个就真没模板啦不会英语的朋友可以上网去用谷歌翻译吧，反正写清楚点到底哪里违规就好了，越细越好.</p>
+<h1 id="亚马逊的回复">亚马逊的回复</h1>
+<p><img src="https://yan1994-1301672808.cos.ap-singapore.myqcloud.com/Img/20200402114040.jpg" alt="" loading="lazy"><br>
+当然这个邮件发过来后我有看了下这个卖家还是没有被马上关店.所以不要开心太早，但是也不要气馁，一次不行再继续举报，跟买狗不走就投诉到他关店！</p>
+<p>就这么多了，祝大家早日摆脱跟买狗。希望各位大佬多多指点提携。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实战如何快速提高谷歌SEO搜索排名]]></title>
+        <id>https://yaseeblog.github.io/post/shi-zhan-ru-he-kuai-su-ti-gao-gu-ge-seo-sou-suo-pai-ming/</id>
+        <link href="https://yaseeblog.github.io/post/shi-zhan-ru-he-kuai-su-ti-gao-gu-ge-seo-sou-suo-pai-ming/">
+        </link>
+        <updated>2020-12-25T06:05:13.000Z</updated>
+        <content type="html"><![CDATA[<p>这次用自己亲手做的一个项目来分享一下自己做谷歌SEO排名的思路和方法，以及展示下效果以此帮助<strong>准备/刚刚</strong>入行的朋友。</p>
+<p>网上太多这类的指导做谷歌SEO排名文章的大多都是抄来抄去，虽然讲的都有道理但是每次看完都会有种好像懂了但是却又什么都没学到的感觉，故在此结合一下自己做的一次实战，<strong>由于商业隐私保密缘故在这就不会暴露出来名字，也希望各位读者不要特地去查找</strong>，本文仅做为自己的分享记录使用，如果有想要进一步的讨论学习可以留言给我或者添加笔者的微信讨论，谢谢。</p>
+<h2 id="网站优化">网站优化</h2>
+<h3 id="网站的优化">网站的优化</h3>
+<p>**速度：**尽量要做到2s内，可以由<a href="https://developers.google.com/speed/pagespeed/insights/">google PageSpeed Insights </a>来分析问题并且检查修改至少需要达到80分以上</p>
+<p><strong>网站是否对手机设备友好</strong>：这点也十分重要，2019年已经不是十年前大家还在靠电脑上网的时代了，移动互联网的普及把大部分的pc流量分到的移动端，随着Google推出移动优先指数，移动优化变得越来越重要，如果你的网站对于手机设备不兼容或者谷歌认为你不易使用，那么很遗憾你基本上很难在手机上获得一个好的排名！</p>
+<p>**Https/ssl:**给你的网站价格https吧不是那么难，也有不少免费的服务比如cloud flare或者lets encrypt, 老生常谈了，https真的很重要，加一个吧兄弟。</p>
+<p>**AMP：**移动设备加速计划，Accelerated Mobile Pages Project，是目前谷歌针对手机等移动端排名的重要指标，但是并非决定性的因素，只能说是加分项，比如我的博客里的每一个页面都做了amp版本</p>
+<h3 id="内容优化">内容优化</h3>
+<h4 id="商品页面内容">商品页面内容：</h4>
+<p>标题/描述/参数/视频/图片/FAQ 做好每一个点，对于你的客户来说也是提高转换率的一个非常好的办法</p>
+<h4 id="多媒体内容">多媒体内容：</h4>
+<p>图片其实也是可以成为外链的一种！参考谷歌用图片搜索的时候的内容。</p>
+<h4 id="url长度">URL长度：</h4>
+<ul>
+<li>
+<p>**级别：**尽量不要把网页的级别拉的太长.</p>
+<p>比如xxx.com/aabb就会比xxx.com/cate/aabb权重大的多</p>
+</li>
+<li>
+<p>**长度：**不要过长的url也不要那种可读性很差的url</p>
+<p>比如拿日期来做url的方式（个别类型网站除外），过长的URL可能不利于页面的搜索引擎收录。行业研究发现，短网址在谷歌的搜索结果中往往有轻微的优势。</p>
+</li>
+</ul>
+<h4 id="网站的可信度">网站的可信度：</h4>
+<p>Terms of Service and Privacy Pages以及contact us 页面有助于告诉谷歌，我的网站是值得信赖的，不仅是为了排名，对于客户来说也是很总要，作为一个网站特别是电商网站来说，信任度是很重要的。</p>
+<h2 id="关键词的选择">关键词的选择</h2>
+<p>**选好关键词：**在这个网站多如牛毛的世界里长尾词非常重要，比如我的一个网站做汽配像car sticker in Dubai 之类的词每天都能带来不少的订单，借助一些工具比如SEMrush，或者是谷歌的关键词工具，并且结合上你的竞争对手的词（用SEMrush可以看到或者其他的一些工具）。</p>
+<p><strong>选完关键词后做什么？</strong></p>
+<ol>
+<li>填充到网站中，做好内链以及页面描述文本</li>
+<li>在外链中使用该关键词</li>
+<li>博客文章中尽量覆盖这些关键词</li>
+</ol>
+<p>细讲下1,在首页的底部以及每一个分类页中加入一段描述该页面的300-500字数的段落，并且嵌入你选出的关键词（如果是分类页就嵌入该分类的词）。</p>
+<ul>
+<li>标题中的关键字</li>
+<li>页面描述中的关键字</li>
+<li>H1标签中的关键字</li>
+</ul>
+<h2 id="社交平台运营">社交平台运营</h2>
+<h4 id="facebook-ins-pinterest">Facebook/ Ins / Pinterest</h4>
+<p>用工具吧，自动化营销，没推广的时候就经常分享点网址的更新，或者和粉丝进行互动玩一些小游戏等，保持活跃。这里可以给你带来不少隐形的流量，也可以提高你的品牌可信度。</p>
+<h4 id="youtube视频">YouTube视频</h4>
+<p>毫无疑问，YouTube视频在排名的待遇真的可以算的上是“谷歌的亲儿子”。不可否认，流媒体时代、眼球经济，视频有着天然的优势（毕竟大家都懒得去阅读我这样又臭又长的文章了）。</p>
+<p><strong>案例：</strong></p>
+<p>一个在自家频道上的介绍怎么使用一款汽车镀晶产品的视频，每天除了阿联酋地区的客户也会引来不少的其他国家的客户流量。</p>
+<h2 id="博客内容的更新">博客内容的更新</h2>
+<p>博客的内容建设非常重要，一个好的博客能给你带来不少<strong>免费</strong>流量甚至是订单以及提高你的主站权重。</p>
+<ul>
+<li>怎么写？用软件做<strong>伪原创</strong>也好，请写手也好，自己动手丰衣足食也好根据自身情况来定.尽量能够自己发布原创文章。</li>
+<li>有规律的更新：给自己定一个小目标每周一定要写固定几篇的文章进行上传</li>
+<li>博客的内容：做好对用户真正有帮助的文章或者视频，谁也不是傻子，那种只为了打广告而打广告的内容就算你骗得用户点开了，人也不会去购买。</li>
+<li>标题：这里和排名就没有关系了，提到标题只是想说标题党的那一套真的很好用，有的时候第一名和第二名其实差别并没有多少，而在于你的标题能不能一下子吸引到客户，多用点比较吸引眼球的词Best / Your favorite / Top 10 / Step by Step / 1 Step to / Friday （人性啊人性）</li>
+</ul>
+<p><strong>案例：</strong></p>
+<p>当时一个帖子让我影响深刻，是为了给自己的网站添加汽车音响设备的流量，所以我就在网络上整理了一下一些自己平常收集的音乐</p>
+<p>然后用软件做成音乐合集上传到YouTube平台里，并且写了一个博客介绍每一个音乐，标题名字是《2018年Top 10 最好的bass车载音乐》，最后在文章结尾放上一些客户改装案例。效果还是不错的只是很遗憾，因为网站从magneto迁移到WordPress里，导致不少内容丢失当时没有记录下来。</p>
+<h2 id="外链的建设">外链的建设</h2>
+<p><strong>没有那么重要，也没有那么不重要</strong>。结合你关键的那么几个页面和关键词做优质外链拒绝垃圾链接，链接的分布也需要均衡，Edu或者论坛，问答站，导航站，合作品牌官网的友链，图片站视频站，一定要注意分布好每一种链接，并且有规律的添加，不要隔三差五的来，坚持1-2个月你就会发现你的各个关键词的排名都在飞速上涨</p>
+<p><strong>案例：</strong></p>
+<p>对于这个项目我选择了一些论坛比如reddit的迪拜社区以及本地的汽车社区论坛进行注册账号以及内容的发布，<strong>但是</strong>注意并不是单纯的做spam，而是真正的作为一个用户，以社区用户的角度去发布内容，去分享，具体可以自行查看知乎的内容，其实里面有一大部分都是来做广告的，只不过大家的水平高低是否容易看得出来。<strong>低质量的内容只会给你的网站以及品牌带来负面影响！</strong></p>
+<h2 id="总结">总结</h2>
+<p>用心去做网站吧，那些靠量堆的时代已经一去不复返了，2019年至未来的几年内，这种现象只会越来越明显，只有真正用心运营的网站才能在SEO获得一席之地。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vlog免费无版权音乐资源大公开 | 如何查找音乐版权 | 音乐频道分享 | 如何下载Soundcloud和YouTube音频]]></title>
+        <id>https://yaseeblog.github.io/post/vlog-free-copyright-free-music-resources-are-open-to-the-public/</id>
+        <link href="https://yaseeblog.github.io/post/vlog-free-copyright-free-music-resources-are-open-to-the-public/">
+        </link>
+        <updated>2020-12-25T06:05:13.000Z</updated>
+        <content type="html"><![CDATA[<p>🎵音乐政策目录 <a href="https://www.youtube.com/music_policies?nv=1">https://www.youtube.com/music_policie...</a></p>
+<p>🎵YouTube 音频库 <a href="https://www.youtube.com/audiolibrary/music?ar=1591142098090&amp;nv=1">https://www.youtube.com/audiolibrary/...</a></p>
+<p>🎵Soundcloud <a href="https://www.youtube.com/redirect?redir_token=QUFFLUhqa0o0TzhCbVFtWnQ4TWF6Uk1jTVNualJTV25yUXxBQ3Jtc0tsLVd3ekFLcjhXVjYtc2FYU0xHQmpoNl9jSHpINEM1Y3RTbk54Wml4dGdPMUxyVEthb3o2TDUxb1ZIbzEtMlJwM2dtZ21EY2tLaFJESW5fOXJ1dDI3Rm1UMmZyTDZBZkJNX3JOQ2FEaDFtTGlhRnM2OA%3D%3D&amp;v=yTyauTanHuQ&amp;q=https%3A%2F%2Fsoundcloud.com%2Fdiscover&amp;event=video_description">https://soundcloud.com/discover</a></p>
+<p>🎵Bensound <a href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbkMwdG1PU3YxalRwY0JIN0R6WTBiblM4OFlSZ3xBQ3Jtc0trM0ZYR1NobW1xWG5PNUFJS2ltNEh5Z1NEUWtSU3otS0VLVmlzR2cyWmZLeGZNcVNzU0lNdE5kM3BXX0tPdDZGUjVOSnk4Ui1aZDBYYUxpNWxRekR3VlQ4X0VvQnp6bDU2OS13SWU3MnJsVFhZcEVRQQ%3D%3D&amp;v=yTyauTanHuQ&amp;q=https%3A%2F%2Fwww.bensound.com%2F&amp;event=video_description">https://www.bensound.com/</a></p>
+<p>🎵Purple Planet Music <a href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbjV6MGk4Zmk0TVNaOUpBSmJxYkJvODBPaDJwUXxBQ3Jtc0tuR1hxLWYxeGxUSElWSEJvMFRtakF5ak9hNDB5VndOUndQNHZrc2FJNW5yclVNNDZOQmlLTFQ4cldXMC1xWWhKRGptRjFraUdocGdFUFR4RHltTnozTkg3ZDNHck1wclRSWjFoVmlIOEtfbUJpaWJjaw%3D%3D&amp;v=yTyauTanHuQ&amp;q=https%3A%2F%2Fwww.purple-planet.com%2F&amp;event=video_description">https://www.purple-planet.com/</a></p>
+<p>🎵Free Stock Music <a href="https://www.youtube.com/redirect?redir_token=QUFFLUhqa0RFODhHQXBwNVhXeS1KQ2MwVUFwUE9fOVZmQXxBQ3Jtc0tuX2g5NjZyd2hyLTNYU2lQcHBDTzNRaDRadjRVLVFBWndMd2xPYkp2aTJPTUJIY0VZenBHekdUVVBvWWFnNFExSzlaMWpIYTl1U0FIT00wcU5VQkNiQWlVOVdHSWthX1Z6ZmJRdUNpM1lLdmRwZTJBOA%3D%3D&amp;v=yTyauTanHuQ&amp;q=https%3A%2F%2Fwww.free-stock-music.com%2F&amp;event=video_description">https://www.free-stock-music.com/</a></p>
+<p>🎵爱给网 <a href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbGY0Q0ZIa0o0ZmVBams1QU5nVndabzBRT1ZpUXxBQ3Jtc0tseEgycncxUGltdVRjZzNUNWY2SHYyc2FUQnBpZ3hNV3c1RDY3N0p2VmVGb21XRWFac0NiQ29JRm9tY1ZZRUIwTHY4M3lqY1VOSzc5d3h2eXptSXI0WEdNN2I5YmdrWTZQZlE4OFZfdzZFbURxV3dMMA%3D%3D&amp;v=yTyauTanHuQ&amp;q=http%3A%2F%2Fwww.aigei.com%2F&amp;event=video_description">http://www.aigei.com/</a></p>
+<p>🎵Chillhop Music <a href="https://www.youtube.com/user/Chillhopdotcom">https://www.youtube.com/user/Chillhop...</a></p>
+<p>🎵The Jazz Hop Cafe <a href="https://www.youtube.com/channel/UCi8wqezBudeAiTdKOX571ug/featured">https://www.youtube.com/channel/UCi8w...</a></p>
+<p>🎵BGM President <a href="https://www.youtube.com/channel/UC7oH_BYk5rSP0JF7IDn-jRQ">https://www.youtube.com/channel/UC7oH...</a></p>
+<p>🎵NoCopyrightSounds <a href="https://www.youtube.com/user/NoCopyrightSounds">https://www.youtube.com/user/NoCopyri...</a></p>
+<p>🎵Music for creators <a href="https://www.youtube.com/channel/UCfwXVYfPFiMlzadS4ow80GA">https://www.youtube.com/channel/UCfwX...</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常用工具合集（持续更新）]]></title>
+        <id>https://yaseeblog.github.io/post/chang-yong-gong-ju-he-ji-chi-xu-geng-xin/</id>
+        <link href="https://yaseeblog.github.io/post/chang-yong-gong-ju-he-ji-chi-xu-geng-xin/">
+        </link>
+        <updated>2020-12-25T06:04:08.000Z</updated>
+        <content type="html"><![CDATA[<p>由于自己用的软件和网站比较多所以开个帖子列一些经常会用到的网站和软件合集，方便自己记忆也顺便发个福利。</p>
+<h1 id="文章编辑">文章编辑</h1>
+<h2 id="markdown编辑器">MarkDown编辑器</h2>
+<ul>
+<li>
+<p>Simplenote: 全平台支持的markdown编辑器<br>
+超级推荐！！！真的蛮好用的简单而且同步方便，重要是完全免费！之前一直在用bear，的确是做的很漂亮，但是需要订阅收费而不能一次买断真的很不舒服。。。</p>
+</li>
+<li>
+<p>onenote:主要是ipad手写做做笔记用</p>
+</li>
+</ul>
+<h2 id="伪原创">伪原创</h2>
+<ul>
+<li>SpinnerChief5:是一款英文伪原创的软件,相信很多做英文SEO的朋友都用过或者听过，超好用再也不怕网站的文章来源了</li>
+<li>The best spinner:同上<br>
+两个伪原创软件就不做比较了各有各的好处因为本人对这边的需求没有那么大所以一直是在用SpinnerChief5(因为穷，SpinnerChief5是免费的)</li>
+</ul>
+<h1 id="图片">图片</h1>
+<h2 id="图片素材">图片素材</h2>
+<p>还在用百度或者谷歌图片吗？是时候和他们说再见了</p>
+<ul>
+<li>UNSPLASH: 用的最多的一个网站经常上去寻找优质的图片素材，重要是免费！不用担心版权</li>
+<li>Pixabay: 同上</li>
+<li>Visualhunt：可以按色系来搜索图片</li>
+<li>iconfont：免费icon百科网站。</li>
+<li><a href="https://www.texturepalace.com/">Texturepalace</a>:ps纹理素材</li>
+<li>picGo:连接腾讯云上传图片用</li>
+</ul>
+<h2 id="图片处理">图片处理</h2>
+<ul>
+<li><a href="https://www.canva.com/">Canva</a>：不会用ps的朋友可以使用这个还不错，用来快速做海报或者设计平台的图片</li>
+<li>Tinypng: jpg也可以压缩哦，免注册免费免下载，一键压缩</li>
+<li>PhotoShop：不多解释真的神器，网上很多教程可以学习</li>
+<li>Affinity Designer: 我用来代替AI的一款软件（一次性付费300左右RMB终身使用，超级良心）可以百度下网上的对比</li>
+</ul>
+<h1 id="视频">视频</h1>
+<h2 id="视频素材">视频素材</h2>
+<ul>
+<li><a href="https://weibo.iiilab.com/">微博视频下载工具</a></li>
+</ul>
+<h2 id="视频处理">视频处理</h2>
+<ul>
+<li>Adobe premiere: 剪辑视频</li>
+<li>Adobe after Effect: 做特效必备</li>
+</ul>
+<h1 id="思维导图">思维导图</h1>
+<ul>
+<li>Xmind: windows上经常用的一个脑图软件还不错</li>
+</ul>
+<h1 id="seo">SEO</h1>
+<ul>
+<li><a href="https://lsigraph.com">LSIGraph</a>: 输入一个关键词会自动生成相关的词语</li>
+<li><a href="http://www.copyscape.com">copyscape</a>：文章或网页查重</li>
+<li><a href="https://www.quetext.com">quetext</a>:同上</li>
+<li><a href="http://plagiarisma.net/">plagiarisma</a>:同上</li>
+<li><a href="https://serps.com/tools/rank-checker/">serps</a>:输入一个关键词然后查询在对应国家的排名，感觉没啥用但是总是偶尔会有需求</li>
+<li><a href="http://www.siteliner.com">siteliner</a>一般我用来检查网站的死链工具</li>
+<li></li>
+</ul>
+<h1 id="运营">运营</h1>
+<h2 id="社交平台">社交平台</h2>
+<ul>
+<li><a href="https://buffer.com">Buffer</a>: 同步发布你的所有社交平台，强烈推荐这类产品</li>
+<li><a href="https://top-hashtags.com">Top-HashTags</a>: 超方便的用来自动生成一系列的hashtag</li>
+</ul>
+<h2 id="产品经理">产品经理</h2>
+<ul>
+<li>Axure: 画原型图，基本上是个产品经理都听过或者使用过吧</li>
+<li>POP：手机上画原型图，可以直接对手绘图像做交互</li>
+<li>Trello：团队协作</li>
+</ul>
+<h1 id="开发">开发</h1>
+<h2 id="python">Python</h2>
+<p>有空的时候开帖子说一下Python的库，在这里只介绍软件</p>
+<ul>
+<li>Anaconda: 管理环境（推荐新手一开始就安装好，要不然像我这样的强迫症会疯掉）</li>
+<li>Pycharm: 从入门用到现在</li>
+<li>Jupyter notebook：做数据处理或者AI开发必装，分段执行+可视化数据超级好用</li>
+</ul>
+<h2 id="ios开发">IOS开发</h2>
+<ul>
+<li>Xcode：没啥好解释的，好像也没其他更好的选择了，以后开个帖子说一下一些好用的插件</li>
+</ul>
+<h2 id="php等其他语言">PHP等其他语言</h2>
+<ul>
+<li>Sublime: 因为我对其他语言的需求比较少最多就写一些Php做接口或者是一些js</li>
+<li>Dreamweaver：网上挺多人吐槽这个的，但是不得不说这种所见即所得的方式对于我这种需求不大的人来说真的很爽</li>
+</ul>
+<h2 id="服务器-树莓派">服务器 &amp; 树莓派</h2>
+<p>不知道怎么分类就干脆把两个放一起吧= =</p>
+<ul>
+<li>Docker：不知道放在那里合适，因为他真的太好用了，每一个开发者都可以尝试学一下</li>
+<li>Filezilla: ftp/sftp上传下载文件必备</li>
+<li>putty：在ubunt和mac上可以直接使用终端，在windows上就使用这款软件管理也是不要太方便</li>
+<li>VNC Viewer：链接VNC到树莓派的，免费好用（自己用teamviewer比较多。。）</li>
+</ul>
+<h2 id="渗透">渗透</h2>
+<ul>
+<li><a href="https://www.shodan.io/">shodan</a>: 用于搜索硬件的引擎</li>
+</ul>
+<h1 id="windows">Windows</h1>
+<h2 id="synergy如果你和我一样平常是用两台电脑的话这个简直神器">synergy:如果你和我一样平常是用两台电脑的话这个简直神器。</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2018年过去了，总结下自己经手的一个跨境电商项目的一些经验。]]></title>
+        <id>https://yaseeblog.github.io/post/2018-nian-guo-qu-liao-zong-jie-xia-zi-ji-jing-shou-de-yi-ge-kua-jing-dian-shang-xiang-mu-de-yi-xie-jing-yan/</id>
+        <link href="https://yaseeblog.github.io/post/2018-nian-guo-qu-liao-zong-jie-xia-zi-ji-jing-shou-de-yi-ge-kua-jing-dian-shang-xiang-mu-de-yi-xie-jing-yan/">
+        </link>
+        <updated>2020-12-25T06:03:10.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="项目分析">项目分析</h1>
+<p>坐标阿联酋，针对用户为本地群众</p>
+<h2 id="背景">背景</h2>
+<p>###技术框架</p>
+<p>Magento用的主题是Porto ，服务器一开始是阿里云的但是因为成本问题改为性价比比较高的<a href="https://www.vultr.com/?ref=7593503">vultr</a> 20美元/月套餐，如果你也是用Magento建站推荐最低使用20美元的VPS！</p>
+<h3 id="营销方式">营销方式</h3>
+<p>Facebook等社交平台推广促销，SEO等免费流量</p>
+<h3 id="seo">SEO</h3>
+<p>由于SEO这类目的内容较多所以我就都写在了另一个帖子里：</p>
+<h1 id="总结">总结</h1>
+<h2 id="物流">物流</h2>
+<p>物流真的是一个大坑，每周一小吵每月一大吵，天天就是把客户弄到生气，然后客户来骂我们，然后我们去投诉物流，对于中东地区的物流真的是很绝望: (</p>
+<p>试过Wing（就是和Souq一起的那个物流，做物流集中平台的），也试过fetchr，在这里点评下这两个号称中东最大的两个物流公司吧</p>
+<h3 id="wing-2020更新-他们换名字了">Wing: （2020更新 他们换名字了）</h3>
+<p>他们家只是提供物流集中平台的，就是说做个中间人帮你控制联系第三方物流，价格中规中矩虽然是中间商但是也不会比外面的其他公司高，按你的订单量来定。</p>
+<p>优点：覆盖面积是广啦，基本上没有送不到的地方，客户经理的服务态度还不错，至少负责我们的那个是这样的，很认真，做到上班时间秒回。</p>
+<p>缺点：中间商嘛，你没办法很好的控制你的下游服务，超多次出现物流小哥对客户态度恶劣甚至出现直接让顾客取消订单的情况（投诉也没啥用，顶多警告什么的，毕竟不是自己的团队有啥办法）。</p>
+<h3 id="fetchr不建议">fetchr：（不建议）</h3>
+<p>还不错吧就是对小客户不理不睬的（100单/天）</p>
+<h3 id="imile贵-但是都是中国人怎么说呢服务是真不错我认识的几个客户经理来说">Imile：（贵。。但是都是中国人怎么说呢服务是真不错我认识的几个客户经理来说）</h3>
+<p>如果没得选的话你就选Imile吧（不是做广告，没收一毛钱）</p>
+<h2 id="产品">产品</h2>
+<p>汽配类</p>
+<h2 id="流程">流程</h2>
+<p>一开始采用全部人工方式，导致时间和效率成本十分的高，客服方面是体现的最为明显的，因为是零售所以没有办法接受这样的效率，所以再后来使用上了 Chatfuel 用来自动回复messenger消息，并且嵌入到网站中。</p>
+<p>商品的信息填充上，图片处理后来使用PS的批处理，也写了一个python脚本调用pillow库来处理，对比下来其实PS的批处理已经足够了。但是如果对于其他平台的信息采集时使用python来实现会更加无缝操作。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[商业逆向工程三大方法，以及思考]]></title>
+        <id>https://yaseeblog.github.io/post/shang-ye-ni-xiang-gong-cheng-san-da-fang-fa-yi-ji-si-kao/</id>
+        <link href="https://yaseeblog.github.io/post/shang-ye-ni-xiang-gong-cheng-san-da-fang-fa-yi-ji-si-kao/">
+        </link>
+        <updated>2020-12-25T06:02:01.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="商业逆向工程三大方法以及思考">商业逆向工程三大方法，以及思考</h1>
+<h2 id="前言">前言</h2>
+<p>你是否也有感觉过自己/企业/产品业务好像这两年进步缓慢，在最近阅读了一些文章后笔者结合了自己的一些情况作了思考，感觉还是很有帮助，所以特地开一篇帖子来分享下思路以及一些有趣的东西</p>
+<blockquote>
+<p>整个社会都在以一个不停的向前进步，无论快或是慢</p>
+</blockquote>
+<p>不可否认，在当今的社会里时常会感觉到仿佛在逆水行舟，不进则退，经常感觉到压力很大，仿佛一刻的休息就已经被人甩到无法追赶的距离。</p>
+<p>个人如此，企业也是如此，同行的竞争越来越激烈，18年末中国的互联网行业也是越加的能感受到寒冬的危机，互联网就像一个没有硝烟的战场，每时每秒都有可能会有一家公司或是企业死去。</p>
+<h2 id="增长工程学">增长工程学</h2>
+<blockquote>
+<p>流量红利越来越少甚至消亡，我们怎样思考新的增长空间？我们怎样找增长点？有哪些角度有哪些抓手？</p>
+</blockquote>
+<p>企业需要不断的进步不断地增长，但是每片市场的蛋糕就只有这么大，想要来分一杯羹的对手不计其数，你有没有想过怎么做才能在片战场中让自己不出局并且还能够脱颖而出？<br>
+企业的‘’范式‘’（Paradigm）</p>
+<blockquote>
+<p>范式（Paradigm），或典范，又可称为世界观(world view)，由托马斯·库恩提出。在1960年之后是指在科学领域和知识论行文中的思维的方式。</p>
+</blockquote>
+<p>在实践中，我们将增长工程学简单地分为两步：</p>
+<p>a. 商业逆向工程（Business Reverse Engineering）：解构商业案例，逆推增长策略和数据，找到增长的杠杆。</p>
+<p>b. 增长正向工程（Growth Forward Engineering）：用精益创业的思维打磨产品，然后将增长的杠杆加到自己身上，构建增长引擎。</p>
+<p>科学研究里有范式作为思维方式，那么商业和个人规划呢？</p>
+<p>研究中，我们发现企业增长从来就不是一蹴而就的花式技巧，那些高效的增长引擎都是精心设计过的系统化工程。其背后一定符合工程学的原理，所以，我们将其命名为“增长工程学”（Growth Engineering）也就是近年出现的新词《增长黑客》</p>
+<p>作为一个整天折腾的人，在学习后我每年都会对自己以及对公司做一次新的规划和分析（即便是懒成我这样的人。。。）</p>
+<p>每个企业或者个人都应该每年进行一次战略规划。该流程可帮助您评估您的业务，资源，市场，客户以及最重要的方向。企业真正把自己描绘或者定位成什么？它是如何做到的，它是否应该继续这样做？该流程可帮助您重新评估您的市场，产品和/或服务，以了解您所销售的产品是否适合您的市场。</p>
+<p><strong>请思考以下三个问题</strong>：</p>
+<p>1）我们现在在哪里？（现状）</p>
+<p>2）我们要去哪儿？（方向）</p>
+<p>3）我们将如何到达那里？（途径）</p>
+<p>而商业逆向工程简单来说就是帮助我们来更好的回答问题二和三的过程。</p>
+<h3 id="案例">案例</h3>
+<p><strong>用我自己举个例子吧</strong><br>
+本来想用自己来举个例子的但是斟酌了下还是考虑用一个曾经准备开始的项目来举例吧。</p>
+<p><strong>风险</strong>：也许辞职回国自己创业也许是一个很蠢的决定，是一个高风险的事情。自己所会的技能和所选的项目有着大量的本土竞争对手，以及国际竞争对手（好难过。。），市场每天都在快速的变化，一不小心就在存量市场中就会被竞争对手淘汰。</p>
+<p><strong>优势</strong>：互联网创造了一个新的市场，并且它仍在增长。这既是威胁，也是机遇！</p>
+<p>在使用以下的商业规划的几个方法来做了分析，得出结论（因为和本人利益相关，不会说的那么详细，尽量指出思路）：</p>
+<ul>
+<li>
+<p>公开情报来源法（Open Source Intelligence，简称OSINT）：从公开来源收集情报</p>
+</li>
+<li>
+<p>逆向工程（Reverse Engineering）：通过成品反推设计原理</p>
+</li>
+<li>
+<p>社会工程学（Social Engineering）：通过人际交流的方式进行渗透并获得信息</p>
+</li>
+</ul>
+<h4 id="结论">结论</h4>
+<ul>
+<li>搜索相关情报，初步了解项目的市场份额后，进行用户画像侧写并收集对应的竞争对手，进一步收集对方的资料</li>
+<li>进行<strong>商业逆向工程</strong>思考分析对手的商业模式和产品特色，生成项目的初步规划。</li>
+<li>根据结论进行增长正向工程， 分析个人技能可行性，以MVP模型最小化产品，上线，快速测试，数据收集。</li>
+<li>利用各种现有工具以及python等语言编写脚本自动化工作工作，来提升效率。</li>
+</ul>
+<h3 id="数据收集的方法">数据收集的方法</h3>
+<p>tip: 如果有朋友有兴趣，以后我会详细的单独开些帖子来讲一下各个方法的实战和思路</p>
+<h4 id="python火车头爬虫采集数据进行分析">python/火车头爬虫采集数据进行分析</h4>
+<p>采集数据应该大家都很熟悉了吧，可以自己写，也可使用市场上成熟的第三方工具和开源代码。因为自己是IOS开发出身，所以花了点时间学习了一下python很快就上手了，不会代码的朋友可以使用火车头等工具在这里不细讲有兴趣的可以查看我以前写的关于采集中东电商Souq / Noon销量的案例：</p>
+<p>比如说：Martech是营销和技术的结合。事实上，任何涉及数字营销的人都在处理martech，因为数字本质上是基于技术的。</p>
+<p><a href="https://martechtoday.com/downloads/marketing_technology_landscape_2017.pdf">martech 高分辨率图片查看</a></p>
+<p>我也已经专门开了一篇帖子总结自己使用的一些工具</p>
+<p><a href="https://yan1994.com/common-tools-collection/">常用工具合集</a></p>
+<p>ps：打个广告，根据项目性质可接受代写python脚本采集数据</p>
+<h4 id="公开情报来源法">公开情报来源法</h4>
+<p>OSINT是公开情报来源的缩写。美国在911恐怖袭击之后，由美国中情局CIA在2005年建立了专门的OSINT部门。</p>
+<p>同时，在数字营销时代，数字化的商业公开情报也呈几何级数增长。常用的手段可以是搜索引擎，爬虫以及各种Spying工具，基本上你可以获取到你想要的80%的信息了。<br>
+比如说如果你想要了解美团上一个产品的去年的价格怎么办，你可以使用<a href="https://web.archive.org/">网页博物馆</a>来进行查看（也有因为这个工具翻车的，就不细说是那家公司啦）。</p>
+<blockquote>
+<p>1935年3月20日,一位名叫伯尔托尔德·雅各布的瑞士作家出于对纳粹的义愤,出版了一本名为《战斗情报》的小书，向外界公开披露了德军的内幕。这本长达172 页的书籍详尽地描述了德国军队的组织结构，详细地列出了德军各级司令部、各师和各军管区的番号、编制、装备、人数、驻扎地点，还有168 名陆军各级指挥官的姓名、年龄、经历和任职时间，甚至还谈到了最新成立的装甲师。更令人惊讶的是，情报人员根据雅各布的交代，一一核对其来源，《战斗情报》的全部材料确实都是从德国公开发行的报纸、丧葬讣文甚至结婚启事上得来的，没有任何人泄露军事秘密。雅各布的工具只是一把剪刀，一罐浆糊，一个卡片盒。比如，从一则简短的讣告中，他得知驻纽伦堡的德军某师团的指挥官是某某将军；在一条关于结婚的新闻里，他又发现新郎是一个少校军衔的信号军官，而他的岳父则是某地的上校指挥官。书中还写道，“从斯图加特赶来参加婚礼的莎勒少将”,是当地的师团指挥。这样的材料越来越多，雅各布将其组成了一幅德国军队组织状况的清晰图画，而这幅图画与实情情况竟然相差无几。</p>
+</blockquote>
+<h4 id="商业逆向工程">商业逆向工程</h4>
+<p>逆向工程经常被用在军事上，用来复制从战场上由常规部队或情报活动获得的别国之技术、设备、信息或其零件。二战和冷战中经常被用到。或者是计算机中进行代码的逆向。<br>
+现在的逆向工程大致为：对对手商业模式的拆解，运营模式的拆解，产品的拆解等等；</p>
+<h4 id="社会工程学">社会工程学</h4>
+<p>社会工程学：一种通过对受害者心里弱点，本能反应，好奇心，本能，贪婪灯心里来达到自己的目的（欺骗，伤害等）。比如最近最经常听到的微信卖茶叶的那批人。。。这也是黑客经常使用的一些手段。</p>
+<p>美国前头号黑客凯文·米特尼克被认为是社会工程学的大师和开山鼻祖，著有安全著作《欺骗的艺术》。</p>
+<h4 id="竞品分析">竞品分析</h4>
+<p>概念说完了，那么怎么做呢</p>
+<p>a. 第一种就是提供情报搜集（Spying）和竞品数据（Competitor Analysis）</p>
+<p>b. 第二种是自动化营销（Marketing Automation），他们可以帮助企业更加轻松地实现数据驱动和实验驱动，同时可以通过自动化扩大商业规模。在构建自身增长引擎的时候，这些工具可以让你事半功倍。</p>
+<p>其实写这篇文章的目的也是因为自己已经不再去正式的做产品经理的工作，但是并不代表不再带着产品经理的思维去思考其他的问题，让我们从一个产品经理的一些技能来思考一下企业的发展和规划。</p>
+<p>一个产品经理的技能：</p>
+<ul>
+<li>最简化产品</li>
+<li>洞察力</li>
+<li>竞品思维能力</li>
+</ul>
+<p>我们主要说下竞品思维能力：一个产品分为<strong>导入期、成长期、成熟期和衰退期</strong>。公司的业务也是一样。在公司业务的每一个时期，用好竞品分析能力能带给你非常大的帮助。在企业里我更愿意吧竞品分析规划为战略规划工具。</p>
+<blockquote>
+<p>竞品思维小到做个人的发展计划，大到做企业的战略规划</p>
+</blockquote>
+<h5 id="分析什么">分析什么？</h5>
+<blockquote>
+<p>出发点不对的强制竞品分析任务只会适得其反，带着目的与初衷愿景去做竞品分析，做出来的结果才有意义。</p>
+</blockquote>
+<p>举个例子，在之前设计app端产品是所需要的就是业务流程、操作步骤、信息展示和功能入口等，在一个对于电商网站的爬虫中则是订单量，产品的类别，价位，商品数，金额，买家数等<br>
+当你有清晰的目标，下一步重点做的就是和谁对，在企业竞争战略分析领域，最著名的战略分析制定工具要属<strong>波特的五力分析模型</strong>，这五力分别指，同行业内现有竞争者的竞争能力、潜在竞争者进入的能力、替代品的替代能力、供应商的讨价还价能力、购买者的讨价还价能力。</p>
+<blockquote>
+<p>你的竞品可能远比你想的要多！</p>
+</blockquote>
+<p>找竞品，第一想到的会是什么，好比说souq，自然会想到他的竞争对手noon或者是jollychic，或者是一个路边的一个烧烤小摊，你会想到竞品则是他隔壁的花甲粉（我超爱吃）以及附近的一些饭店<br>
+但是！这是当你以一个商家的视角去思考，你有没有试过把自己放在用户的视角下去重新定义一遍？<br>
+好比说‘某人’最爱的得到APP，那么如果把自己作为得到的工作人员来想的话第一肯定是喜马拉雅APP或者是什么其他的有声知识付费软件<br>
+但是如果作为一个用户来思考，他的竞品则可以甚至扩展为王者荣耀（如果用户画像是我这样的人的话:(）。我们必须从用户的视角去看我们到底在跟谁打对台——在这一步，我们并不是分析“对手”，而是在分析“用户”，有的时候从这种思维中也许你可以更好的去定位你的产品。<br>
+我们再来把用户细分一下</p>
+<ul>
+<li>用户1，明确知道自己要什么，我就是想要一个让我不用大量阅读而可以学习新知识的软件<br>
+明显对于这类用户</li>
+<li>用户B，想要一个开车或者睡觉前听的软件，可以利用时间消遣无聊时光<br>
+音频类知识栏目，感情也好或者音乐也好，像这类的软件就会变成你的竞争对手</li>
+<li>用户C，‘吃瓜群众’我不知道要干嘛，就是想打发下时间<br>
+娱乐一下，打开爱奇艺看个视频；打开淘宝剁剁手，或者是打打游戏啦，也有可能在刷朋友圈的时候看到好友分享的《罗胖精选》而去下载类得到，这些都是有可能的，也就是说——<strong>所有可能抢占用户钱包和时间的产品都可以作为彼此的竞品</strong>。</li>
+</ul>
+<p>在这里细讲下去又可以再开一篇帖子了。</p>
+<h2 id="思考">思考</h2>
+<h3 id="传统运营和增长黑客">传统运营和增长黑客</h3>
+<p>无论是运营还是增长黑客都有一个非常重要的模块叫做用户拉新。<strong>用户拉新这件事情是围绕渠道展开的，可以吧渠道分为两类。一种渠道带来的效果是加法，一种渠道带来的效果是乘法。</strong></p>
+<p><strong>加法</strong>：最熟悉的就是比如facebook的广告投放，那么这个时候就是渠道1+1，然后累计。</p>
+<p><strong>乘法</strong>：熟人营销，用户拉新，病毒营销等等都能达到一个倍增效应。</p>
+<p><strong>其实不论是传统运营的拉新、留存、促活、营收四要素，还是增长黑客的AARRR模型，他都只是企业的一种营销模式，对于我们来说跟应该花精力研究是还是企业自身的各个因素，已经在增长过程中的监控以及风险控制。</strong></p>
+<h3 id="传统行业-vs-互联网行业">传统行业 vs 互联网行业</h3>
+<p>增长的方案肯定是可以在传统行业上应用的，不管是传统企业还是互联网企业，如何增长都是企业面临的挑战</p>
+<p>增长最重要的其实是执行方案，互联网企业可以马上修改，但传统企业不能这样。他可能意识上不是这样，但是他做增长确实有一定难度。传统企业而言对于数据的价值意识是比较到位的，但是要让这些数据发挥价值，其实还需要有断臂的勇气，比较成本在那里摆着。</p>
+<p><strong>在做增长的时候，一定要基于自身业务的特征，这个特征有可能是我们用户的消费频次或者是金额，也许是我们供给侧的能力，也许是其他有可能的因素，你要把所有的因素考虑全了，然后考虑真正适合这个业务最优的一个增长策略。</strong></p>
+<h3 id="流量">流量？</h3>
+<p><strong>流量越来越少怎么办？</strong></p>
+<p>对自有流量渠道进行优化，或者开拓新的流量来源，打开增量市场。</p>
+<p>流量有一个铁律，随着数量增加流量的质量一定是下降。下降之后我们用什么增长支持？比如做教育，MBA的人群，这个人群不多，这个时候怎么办？<strong>他需要很大的增量，这个时候我们需要扩展其他的人群</strong>。比如说研究生的人群，比如说硕士这样的人群。但是你投放这些人群的代价变得非常高，你怎样看待这些问题？其实这些策略是我们增长过程中必然考虑的策略。</p>
+<p>比如投研究生我可以看到ROI非常差，但是我们可以通过归因的模型，做增长一定看归因，看投放之后这些人有没有转化成搜索MBA，然后再成为你的客户，通过归因的数据可以帮助你反推你的策略。</p>
+<p><strong>所以做增长的时候，不仅仅考虑渠道增长，你要考虑定价、交易模式、产品整体的核心体验。我们一定要看产品的留存率，这是一定要看，否则所有的工作都是白白浪费。</strong></p>
+<p>再举个例子</p>
+<p>经手过的一个做汽配的跨境电商，流量来源平常只有社交平台的广告，后来添加了个博客，认真做了一段时间的高质量外链，和内容填充（基本每个产品都会配上YouTube自拍的视频介绍如何使用），发现慢慢的来着SEO的流量增大了很多，慢慢的把对应关键词都做到TOP1，而且成交率也还不错。在开发了一款性价比很高的产品后，发现经常也会发现一些自发拉新客户的来进行消费。但是也是因为seo流量来源，也吸引来一些需要真正的汽车配件的客户（比如说部件，）</p>
+<p>从这次经历后自己也总结了一些要点</p>
+<ul>
+<li>产品及运营要走心</li>
+<li>从痛点处吸引目标用户</li>
+<li>数据驱动高效获客</li>
+<li>服务是情怀，也是本份</li>
+<li>专业的知识，说服用户</li>
+</ul>
+<p>2019年，快钱的时代已经要过去了，认真做好产品和服务才是最主要的。</p>
+<h2 id="结尾">结尾</h2>
+<p>对于企业到底要怎么做呢？</p>
+<p>对于互联网产品来说，生命周期的理论是一样的逻辑。为了稍稍区别于一般产品生命周期包含的“引进”“成长”“成熟”“衰退”四个阶段，我这里把互联网产品的生命周期分为以下四个阶段，如图所示：</p>
+<ol>
+<li>产品导入期<br>
+这一阶段，用户对于品类的认知刚刚起步，绝大部分消费者根本不知道这个品类的存在，所以，想要迅速占领市场，最佳的方式就是对标人们既有认知中的老品类，以老品类竞品的身份出现更容易获得关注。用最小的<strong>MVP模型来不断地试错</strong>，进行新产品的迭代，<strong>让产品尽早达到PMF状态（Product/Market Fit，产品符合市场需求）</strong>。</li>
+<li>产品成长期<br>
+对现有渠道进行优化，进入品类成长期就意味着，市场上消费者已经有部分用户了解使用这个品类的产品，但是相对于成熟品类来说，这个品类的普及程度还远远不够，品类的市场份额还需进一步扩大。对于在该品类内所处不同市场地位的品牌来说，选择谁作为竞品情况比较复杂。比如近年很火的<strong>Daniel Wellington（DW）手表</strong>，典型的快速增长成功的案例有兴趣的朋友可以了解一下。在手表市场能够这么快这么迅速做的这么成功的公司值得你去好好分析一下：以白领学生等年轻群众作为快速增长目标用户，区分开自己与劳力士等动辄上万的定位。因为用户的时尚消费属性快速占领Ins市场，以极快的速度占领目标用户并且完成教科书般的病毒营销。</li>
+<li>产品成熟期<br>
+品类成熟期是指：目标市场绝大部分消费者已经熟悉这个品类，而且对品类的需求增长逐渐缓慢，总体的市场容量保持不变或者小幅增长，这种情况下，企业的主要竞品可以以同行其他品牌，也就是我们常规意义上的竞品为主。和竞品PK的方式也很简单，只需要告诉消费者自己与别的品牌相比有何不同，即可。比如在比如说我最近在消费的猫砂，可以定位高性价比或者除臭能力，或者是结团能力。或者是日本汽车的省油等等，将这种属性融入到产品品牌中。</li>
+<li>产品衰退期<br>
+这个时期，消费者对于品类的需求呈现出快速下滑，甚至出现新品类开始替代原有的老品类，比如在线阅读和纸质书本，此时对于该品类下的企业来说，就不是选哪个品牌做竞品的问题了。当务之急是要换一个赛道，寻找新的定位机会，比如：通过品类某些特性的创新，创造新的消费场景，或者通过品类分化占领新的市场机会等等。</li>
+</ol>
+<p>参考文献：<br>
+http://growthbox.net/growthhack/3750/<br>
+https://en.wikipedia.org/wiki/Paradigm</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自己用的亚马逊回复模板]]></title>
+        <id>https://yaseeblog.github.io/post/zi-ji-yong-de-ya-ma-xun-hui-fu-mo-ban/</id>
+        <link href="https://yaseeblog.github.io/post/zi-ji-yong-de-ya-ma-xun-hui-fu-mo-ban/">
+        </link>
+        <updated>2020-12-25T06:01:10.000Z</updated>
+        <content type="html"><![CDATA[<p>#回复差评 （可用于邮件和公开回复）</p>
+<p>Dear Customer,</p>
+<p>Thank you for your purchase and taking the time to write a product review. We are terribly sorry to hear the product you received is defective and would like to know if we can send you a free replacement or assist you with a refund.</p>
+<p>Customer reviews is important to us and we value your response. All responses will be used to further improve the quality of our service and products.</p>
+<p>Please let us know how we may assist you to resolve the issue you have experienced.</p>
+<p>Sorry for the inconvenience and thank you for giving us the opportunity to rectify the matter.</p>
+<p>Sincerely yours</p>
+<p>店铺名称 Customer Service Team</p>
+<hr>
+<p>#客户收到却说没收到</p>
+<p>Hi Dear Nadra<br>
+Thanks a lot for contact with us, This is Yasee From Holahoney UAE Store.<br>
+First of all, I am so sorry for bringing this inconvenience. I totally understand this is not a good experience. But don't worry i will be here fighting for your right. Customer Satisfaction is the most important thing for us.</p>
+<p>this order is Fulfilled by Amazon. and this order was hand over to the amazon courier at 7th. So just now I have been already sending a complaint to the Amazon Seller Support team for it.</p>
+<p>In attached picture is the reply from Amazon. you by open this link:<br>
+and follow below step:</p>
+<ol>
+<li>choose the order<br>
+2.find ''Tell us more'' choose '' delivery issues''<br>
+3.choose ''missed my order''</li>
+</ol>
+<hr>
+<h2 id="httpswwwamazonaegphelpcustomercontact-usrefhp_gt_comp_cu_nlnodeid504874referrala3ismguu7i5o8z_a2exx3nxxpr7xs">https://www.amazon.ae/gp/help/customer/contact-us/ref=hp_gt_comp_cu_nl?nodeId=504874&amp;referral=A3ISMGUU7I5O8Z_A2EXX3NXXPR7XS</h2>
+<p>to get direct support from the amazon team.(this will be the fastest way to find out)</p>
+<p>and if after trying above step is not working please let me know as well i will find a better solution for your immediately.</p>
+<p>I will be here for you anytime. And During this time please take care of yourself as well.</p>
+<p>Best regard</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python的selenium在ubuntu上遇到的版本问题报错]]></title>
+        <id>https://yaseeblog.github.io/post/python-de-selenium-zai-ubuntu-shang-yu-dao-de-ban-ben-wen-ti-bao-cuo/</id>
+        <link href="https://yaseeblog.github.io/post/python-de-selenium-zai-ubuntu-shang-yu-dao-de-ban-ben-wen-ti-bao-cuo/">
+        </link>
+        <updated>2020-12-25T05:59:58.000Z</updated>
+        <content type="html"><![CDATA[<p>今天开脚本的时候莫名其妙的跳出来这个错误，之前一直好好的，不太清楚到底问题出在哪里。</p>
+<pre><code>&gt;selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 80
+</code></pre>
+<p>检查了下自己的Chrome浏览器版本是‘83.0.4103.97（正式版本） （64 位）’</p>
+<p>最后在Stackoverflow上面搜到一个解决方案：使用webdriver-manager这个库来管理，成功解决问题</p>
+<pre><code>&gt;pip install webdriver-manager
+</code></pre>
+<p>安装完运行测试</p>
+<pre><code>&gt;from selenium import webdriver
+&gt;from webdriver_manager.chrome import ChromeDriverManager
+&gt;driver = webdriver.Chrome(ChromeDriverManager().install())
+</code></pre>
+<p>不需要每次都下载图像。webdriver_manager中有一个缓存机制，因此，如果可能，它将使用上一次运行中webdriver_manager下载的计算机上的正确驱动程序</p>
+]]></content>
+    </entry>
+</feed>
